@@ -1,0 +1,184 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "europass-EN.pdf",
+
+    "Banner.Pretitle": "Hello world! My name is",
+    "Banner.Description": "I'm working on building high quality products on <span class='underline'>Web 3.0</span> and <span class='underline'>The Metaverse</span>. I'm hoping to be able to bring these new and exciting technologies to millions of people and hopefully be able to improve their lives in some way or another.",
+    "Banner.ActionBtn": "Send me an email",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "Being a <span class='underline'>blockchain developer</span> forces me to be a continous learner as the space moves much quicker than my knowledge about it. However, I find learning as one of the biggest pleasures in my life along with doing exercise, playing videogames and spending time with my family and friends.",
+        "I also have experience developing traditional finance systems for wholesale banking and data reconciliation scripts.",
+        "I love working with new and <span class='underline'>disruptive technologies</span> that have the power to change how we interact with money, things and people.",
+        "Some of the technologies that I have used include:"
+    ],
+
+
+    "Experience.Title": "Studies & Experience",
+    "Experience.Jobs": [{
+            "Tab": "UAH",
+            "Title": "Computer Engineering",
+            "Date": "September 2017 - September 2021",
+            "Description": [
+              "Engineering degree taken at <span class='underline'>Universidad de Alcalá</span>, a Spanish public university.",
+              "The most challenging 4 years of my life, in which I developed a great variety of projects, some of which include a <span class='underline'>self-driving car controller</span> using ADA and the TORCS simulator, a <span class='underline'>compiler</span> for a custom programming language written in Java and a <span class='underline'>fast-food restaurant app</span> using Android Studio.",
+              "As my final degree project, I developed a prototype on FreeRTOS and RISC-V of the application software of the EPD ICU onboard <span class='underline'>Solar Orbiter</span>. The EPD ICU is a device used to measure the solar wind and the magnetic field of the Sun and it's mounted on Solar Orbiter, a mission of the <span class='underline'>European Space Agency</span>."
+            ]
+        },
+        {
+            "Tab": "NWorld",
+            "Title": "Consultant",
+            "Date": "September 2021 - August 2022",
+            "Description": [
+              "Development and maintenance of wholesale banking systems for <span class='underline'>BBVA</span>, a Spanish multinational bank.",
+              "Developed frontend systems using Java, <span class='underline'>Kotlin</span> and PHP.",
+              "Creation of data reconciliation scripts using <span class='underline'>Python</span> and <span class='underline'>Pandas</span>.",
+              "MySQL, Oracle, Bitbucket, Jira, Jenkins, Unix etc."
+            ]
+        },
+        {
+            "Tab": "UEM",
+            "Title": "Master's Degree in Blockchain",
+            "Date": "March 2022 - July 2022",
+            "Description": [
+              "Master's degree taken at <span class='underline'>Universidad Europea</span>, a prestigious Spanish private university.",
+              "Learnt how to develop blockchain systems using <span class='underline'>Solidity</span> and deploying them on various EVM-compatible blockchains such as <span class='underline'>Ethereum</span>, <span class='underline'>Polygon</span> and <span class='underline'>Avalanche</span>.",
+              "Created nodes of the main blockchain networks such as <span class='underline'>Bitcoin</span>, <span class='underline'>Ethereum</span> and <span class='underline'>Hyperledger Fabric</span>.",
+              "My final master's degree project was <span class='underline'>Gastroo</span>, a Web 3.0 Dapp that allows foodies to monetize their culinary contents by creating NFTs with their recipees embedded into them."
+            ]
+        },
+        {
+            "Tab": "CryptoAvatars",
+            "Title": "Blockchain developer",
+            "Date": "September 2022 - Ongoing",
+            "Description": [
+              "Development of the CryptoAvatars project. A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses EVM-compatible blockchains.",
+              "Development of the CA-Marketplace smart contract, integration of frontend and backend systems with the supported chains.",
+              "Working in a 10 person Scrum team",
+              "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "Agrourbana",
+            "Description": "Monitoring application made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has feedback form logic for parameter configuration.",
+            "imgs": [
+                "assets/images/agrourbana/agrourbana1.png",
+                "assets/images/agrourbana/agrourbana2.png",
+                "assets/images/agrourbana/agrourbana3.png",
+                "assets/images/agrourbana/agrourbana4.png",
+                "assets/images/agrourbana/agrourbana5.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Tu super plan",
+            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has <span class='underline'>online chat</span, <span class='underline'>contact form</span>, <span class='underline'>notification system by whatsapp and mail</span>, <span class='underline'>auth</span>, and <span class='underline'>internet information management through the role of administrator.</span>",
+            "imgs": [
+                "assets/images/tusuperplan/tusuperplan1.png",
+                "assets/images/tusuperplan/tusuperplan2.png",
+                "assets/images/tusuperplan/tusuperplan3.png",
+                "assets/images/tusuperplan/tusuperplan4.png",
+                "assets/images/tusuperplan/tusuperplan5.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Proyexiot",
+            "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
+            "imgs": [
+                "assets/images/proyex/proyex1.png",
+                "assets/images/proyex/proyex2.png",
+                "assets/images/proyex/proyex3.png",
+                "assets/images/proyex/proyex4.png",
+                "assets/images/proyex/proyex5.png",
+                "assets/images/proyex/proyex6.png",
+                "assets/images/proyex/proyex7.png",
+                "assets/images/proyex/proyex8.png",
+                "assets/images/proyex/proyex9.png",
+                "assets/images/proyex/proyex10.png",
+                "assets/images/proyex/proyex11.png",
+                "assets/images/proyex/proyex12.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Hands game",
+            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+            "imgs": ["assets/images/hands-game.png"],
+            "ghLink": "https://github.com/MSchere/hands-game",
+            "demoLink": "https://projects.Mschere.com/hands-game",
+            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+        },
+        {
+            "Title": "Countries viewer",
+            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "ghLink": "https://github.com/MSchere/countries-viewer",
+            "demoLink": "https://projects.Mschere.com/countries-viewer",
+            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Pokemon",
+            "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
+            "ghLink": "https://github.com/MSchere/pokemon-angular",
+            "demoLink": "https://projects.Mschere.com/pokemon-list",
+            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+        },
+        {
+            "Title": "Coming soon page",
+            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
+            "ghLink": "https://github.com/MSchere/coming-soon-page",
+            "demoLink": "https://projects.Mschere.com/coming-soon-page",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Four card feature section",
+            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
+            "ghLink": "https://github.com/MSchere/fourd-card-feature-section",
+            "demoLink": "https://projects.Mschere.com/four-card-feature-section",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Social proof section",
+            "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
+            "ghLink": "https://github.com/MSchere/social-proof-section",
+            "demoLink": "https://projects.Mschere.com/social-proof-section",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "FAQ accordion card",
+            "Description": "FAQ accordion with logic and animations made in Angular.",
+            "ghLink": "https://github.com/MSchere/faq-accordion",
+            "demoLink": "https://proyectos.Mschere.com/faq-accordion",
+            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+        },
+        {
+            "Title": "Profile card",
+            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
+            "ghLink": "https://github.com/MSchere/profile-card-component",
+            "demoLink": "https://proyectos.Mschere.com/profile-card-component",
+            "Technologies": ["Angular", "SASS", "GIT"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}

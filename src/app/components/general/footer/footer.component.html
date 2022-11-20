@@ -1,0 +1,44 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_instagram", "footer", "telegram")' href="https://t.me/scheren76" target='_blank'>
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_instagram", "footer", "instagram")' href="https://www.instagram.com/manu_rdsc" target='_blank'>
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_twitter", "footer", "twitter")' href="https://twitter.com/manu_schere" target='_blank'>
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/MSchere" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/manu-schere/" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:manu_schere@proton.me" target='_blank'>manu_schere@proton.me </a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center" >
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_angular_portfolio", "footer", "click")' href="https://github.com/MSchere/angular-portfolio" target="_blank" rel="nofollow noopener noreferrer">
+            <div>Built with Angular by Manuel R. Schere</div>
+        </a>
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_brittany", "footer", "click")' href="https://github.com/bchiang7/v4" target="_blank" rel="nofollow noopener noreferrer">
+            <div class="mt-2">Designed by Brittany Chiang</div>
+        </a>
+    </div>
+
+</footer>
