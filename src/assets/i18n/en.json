@@ -19,7 +19,6 @@
         "Some of the technologies that I have used include:"
     ],
 
-
     "Experience.Title": "Studies & Experience",
     "Experience.Jobs": [{
             "Tab": "UAH",
@@ -68,64 +67,46 @@
 
     "FeatureProjects.Title": "My projects",
     "FeatureProjects.Label": "Featured Project",
-    "FeatureProjects.Projects": [{
-            "Title": "Agrourbana",
-            "Description": "Monitoring application made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has feedback form logic for parameter configuration.",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Gastroo",
+            "Description": "A Web 3.0 Dapp that allows foodies to monetize their culinary contents by creating NFTs with their recipees embedded into them.",
             "imgs": [
-                "assets/images/agrourbana/agrourbana1.png",
-                "assets/images/agrourbana/agrourbana2.png",
-                "assets/images/agrourbana/agrourbana3.png",
-                "assets/images/agrourbana/agrourbana4.png",
-                "assets/images/agrourbana/agrourbana5.png"
+                "assets/images/gastroo.png"
             ],
-            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+            "ghLink": "https://github.com/MSchere/gastroo_dapp",
+            "demoLink": "http://gastroo.es/marketplace",
+            "Technologies": ["Solidity", "React", "Moralis", "SCSS", "Web3.js"]
         },
         {
-            "Title": "Tu super plan",
-            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has <span class='underline'>online chat</span, <span class='underline'>contact form</span>, <span class='underline'>notification system by whatsapp and mail</span>, <span class='underline'>auth</span>, and <span class='underline'>internet information management through the role of administrator.</span>",
+            "Title": "CryptoAvatars",
+            "Description": "A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses and EVM-compatible blockchains. More coming soon!",
+            "demoLink": "https://cryptoavatars.io",
             "imgs": [
-                "assets/images/tusuperplan/tusuperplan1.png",
-                "assets/images/tusuperplan/tusuperplan2.png",
-                "assets/images/tusuperplan/tusuperplan3.png",
-                "assets/images/tusuperplan/tusuperplan4.png",
-                "assets/images/tusuperplan/tusuperplan5.png"
+                "assets/images/ca.png"
             ],
-            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+            "Technologies": ["Solidity", "Angular", "SCSS", "Nest.js", "Ethers.js", "MongoDB", "Redis"]
         },
         {
-            "Title": "Proyexiot",
-            "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
+            "Title": "Halo Weapons NFT",
+            "Description": "A simple demo project in which a user can mint Opensea-compatible NFTs with 3D models of Halo weapons embedded into them.",
             "imgs": [
-                "assets/images/proyex/proyex1.png",
-                "assets/images/proyex/proyex2.png",
-                "assets/images/proyex/proyex3.png",
-                "assets/images/proyex/proyex4.png",
-                "assets/images/proyex/proyex5.png",
-                "assets/images/proyex/proyex6.png",
-                "assets/images/proyex/proyex7.png",
-                "assets/images/proyex/proyex8.png",
-                "assets/images/proyex/proyex9.png",
-                "assets/images/proyex/proyex10.png",
-                "assets/images/proyex/proyex11.png",
-                "assets/images/proyex/proyex12.png"
+                "assets/images/halo.png"
             ],
-            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+            "Technologies": ["Solidity", "Angular", "SCSS", "Moralis", "Angular Material", "Web3.js", "Model Viewer"]
         },
         {
-            "Title": "Hands game",
-            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
-            "imgs": ["assets/images/hands-game.png"],
-            "ghLink": "https://github.com/MSchere/hands-game",
-            "demoLink": "https://projects.Mschere.com/hands-game",
-            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+            "Title": "BBVA Risks Reconciliation",
+            "Description": "An internal tool used by BBVA to detect and study discrepancies in operational imports between the front and back office systems.",
+            "imgs": ["assets/images/bbva.png"],
+            "Technologies": ["Python", "Pandas", "Streamlit", "Anaconda"]
         },
         {
-            "Title": "Countries viewer",
-            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/MSchere/countries-viewer",
-            "demoLink": "https://projects.Mschere.com/countries-viewer",
-            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+            "Title": "Instant Eat",
+            "Description": "A sample Android app that allows users to order food from various restaurants, pay using various payment methods and track their order in real time. It was meant to implement different design patterns.",
+            "imgs": ["assets/images/instant_eat.png"],
+            "ghLink": "https://github.com/MSchere/instantEat",
+            "Technologies": ["Android Studio", "Java", "SQLite"]
         }
     ],
 
@@ -133,51 +114,27 @@
 
     "OtherProjects.Title": "More projects",
     "OtherProjects.Projects": [{
-            "Title": "Pokemon",
-            "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
-            "ghLink": "https://github.com/MSchere/pokemon-angular",
-            "demoLink": "https://projects.Mschere.com/pokemon-list",
-            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+            "Title": "Vega SDK",
+            "Description": "SDK with custom LPUART functionality for the OpenISA Vegaboard. Used to develop the Solar Orbiter FreeRTOS EPD ICU port from my final degree project.",
+            "ghLink": "https://github.com/MSchere/Vega_sdk",
+            "Technologies": ["C", "RISC-V", "Eclipse", "Unix"]
         },
         {
-            "Title": "Coming soon page",
-            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
-            "ghLink": "https://github.com/MSchere/coming-soon-page",
-            "demoLink": "https://projects.Mschere.com/coming-soon-page",
-            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+            "Title": "Self Driving Car PID",
+            "Description": "University project for the Real Time Systems class. Implements a PID controller written in ADA that makes a car drive itself in the TORCS simulator.",
+            "ghLink": "https://github.com/MSchere/SelfDrivingCar",
+            "Technologies": ["C++", "C", "Ada", "TORCS"]
         },
         {
-            "Title": "Four card feature section",
-            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
-            "ghLink": "https://github.com/MSchere/fourd-card-feature-section",
-            "demoLink": "https://projects.Mschere.com/four-card-feature-section",
-            "Technologies": ["Angular", "SASS", "CSS GRID"]
-        },
-        {
-            "Title": "Social proof section",
-            "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
-            "ghLink": "https://github.com/MSchere/social-proof-section",
-            "demoLink": "https://projects.Mschere.com/social-proof-section",
-            "Technologies": ["Angular", "CSS GRID", "GIT"]
-        },
-        {
-            "Title": "FAQ accordion card",
-            "Description": "FAQ accordion with logic and animations made in Angular.",
-            "ghLink": "https://github.com/MSchere/faq-accordion",
-            "demoLink": "https://proyectos.Mschere.com/faq-accordion",
-            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
-        },
-        {
-            "Title": "Profile card",
-            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
-            "ghLink": "https://github.com/MSchere/profile-card-component",
-            "demoLink": "https://proyectos.Mschere.com/profile-card-component",
-            "Technologies": ["Angular", "SASS", "GIT"]
+            "Title": "Compiler",
+            "Description": "University project for the Compilers class. Implements a compiler for a custom language written in Java. It uses ANTLR to parse the language and LLVM to generate the code.",
+            "ghLink": "https://github.com/MSchere/PL3Compiladores",
+            "Technologies": ["Java", "ANTLR"]
         }
     ],
     "Contact.Pretitle": "What’s Next",
-    "Contact.Title": "Get in touch!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Title": "Get in touch",
+    "Contact.Content": "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!",
     "Contact.Btn": "Say Hello"
 
 
