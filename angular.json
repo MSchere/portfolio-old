@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "angular-portfolio": {
+        "portfolio": {
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -19,7 +19,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/angular-portfolio",
+                        "outputPath": "dist/portfolio",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -85,18 +85,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "angular-portfolio:build"
+                        "browserTarget": "portfolio:build"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "angular-portfolio:build:production"
+                            "browserTarget": "portfolio:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "angular-portfolio:build"
+                        "browserTarget": "portfolio:build"
                     }
                 },
                 "test": {
@@ -134,11 +134,11 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "angular-portfolio:serve"
+                        "devServerTarget": "portfolio:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "angular-portfolio:serve:production"
+                            "devServerTarget": "portfolio:serve:production"
                         }
                     }
                 },

@@ -11,7 +11,7 @@ import { Location } from '@angular/common';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  title = 'angular-portfolio';
+  title = 'portfolio';
   
   constructor(
     private titleService: Title,
