@@ -8,15 +8,15 @@
     "Header.cvName": "europass-ES.pdf",
 
     "Banner.Pretitle": "¡Hola mundo! Mi nombre es",
-    "Banner.Description": "Estoy trabajando en la creación de productos de alta calidad en <span class='underline'>Web 3.0</span> y <span class='underline'>El Metaverso</span>. Tengo la esperanza de poder llevar estas nuevas y emocionantes tecnologías a millones de personas y, con suerte, poder mejorar sus vidas de una forma u otra",
+    "Banner.Description": "Estoy trabajando en el desarrollo de productos de alta calidad en la <span class='underline'>Web 3.0</span> y <span class='underline'>El Metaverso</span>. Tengo la esperanza de poder llevar estas nuevas y emocionantes tecnologías a millones de personas y, con suerte, poder mejorar sus vidas de una forma u otra",
     "Banner.ActionBtn": "Envíame un correo electrónico",
 
     "AboutMe.Title": "Acerca de mí",
     "AboutMe.Paragraphs": [
-        "Ser un <span class='underline'>desarrollador de blockchain</span> me obliga a ser un aprendiz continuo ya que el espacio se mueve mucho más rápido que mi conocimiento sobre este. Sin embargo, aprender es uno de los mayores placeres de mi vida, además de hacer ejercicio, jugar a videojuegos y pasar tiempo con mi familia y amigos.",
+        "Ser un <span class='underline'>desarrollador de blockchain</span> me obliga a estar contínuamente aprendiendo ya que la industria se mueve mucho más rápido que mi conocimiento sobre ella. Sin embargo, aprender es uno de mis mayores placeres, además de hacer ejercicio, jugar a videojuegos y pasar tiempo con familiares y amigos.",
         "También tengo experiencia en el desarrollo de sistemas financieros tradicionales para banca mayorista y scripts de reconciliación de datos.",
-        "Me encanta trabajar con tecnologías nuevas y <span class='underline'>disruptivas</span> que tienen el poder de cambiar la forma en que interactuamos con el dinero, las cosas y las personas.",
-        "Algunas de las tecnologías que he utilizado incluyen:"
+        "Me encanta trabajar con tecnologías nuevas y <span class='underline'>disruptivas</span> que tienen el poder de cambiar la forma en la que interactuamos con el dinero, las cosas y las personas.",
+        "Algunas de las tecnologías que he empleado incluyen:"
     ],
 
     "Experience.Title": "Estudios y Experiencia",
@@ -25,41 +25,41 @@
             "Title": "Ingeniería de Computadores",
             "Date": "septiembre de 2017 - septiembre de 2021",
             "Description": [
-              "Title de ingeniería cursado en la <span class='underline'>Universidad de Alcalá</span>, una universidad pública española.",
-              "Los 4 años más desafiantes de mi vida, en los que desarrollé una gran variedad de Projects, algunos de los cuales incluyen un <span class='underline'>controlador de automóvil autónomo</span> utilizando ADA y el simulador TORCS, un <span class='underline'>compilador</span> para un lenguaje de programación personalizado escrito en Java y una <span class='underline'>aplicación para restaurantes de comida rápida</span> con Android Studio.",
+              "Títutlo de ingeniería cursado en la <span class='underline'>Universidad de Alcalá</span>, una universidad pública española.",
+              "Los 4 años más desafiantes de mi vida, en los que desarrollé una gran variedad de proyectos, algunos de los cuales incluyen un <span class='underline'>controlador de coches autónomos</span> utilizando ADA y el simulador TORCS, un <span class='underline'>compilador</span> para un lenguaje de programación personalizado escrito en Java y una <span class='underline'>aplicación para restaurantes de comida rápida</span> con Android Studio.",
               "Como trabajo final de carrera, desarrollé un prototipo sobre FreeRTOS y RISC-V del software de aplicación de la EPD ICU a bordo del <span class='underline'>Solar Orbiter</span>. La EPD ICU es un dispositivo que sirve para medir el viento solar y el campo magnético del Sol y está montado en Solar Orbiter, una misión de la <span class='underline'>Agencia Espacial Europea</span>."
             ]
         },
         {
-            "Tab": "Mundo N",
+            "Tab": "NWorld",
             "Title": "Consultor",
             "Date": "septiembre de 2021 - agosto de 2022",
             "Description": [
-              "Desarrollo y mantenimiento de sistemas de banca mayorista para <span class='underline'>BBVA</span>, un banco multinacional español.",
-              "Desarrollé sistemas frontend usando Java, <span class='underline'>Kotlin</span> y PHP.",
-              "Creación de scripts de reconciliación de datos usando <span class='underline'>Python</span> y <span class='underline'>Pandas</span>.",
+              "Desarrollo y mantenimiento de sistemas de banca mayorista para el <span class='underline'>BBVA</span>, un banco multinacional español.",
+              "Desarrollé sistemas de frontend y backend usando Java, <span class='underline'>Kotlin</span> y PHP.",
+              "Creación de scripts de reconciliación de datos usando <span class='underline'>Python</span> y la librería <span class='underline'>Pandas</span>.",
               "MySQL, Oracle, Bitbucket, Jira, Jenkins, Unix, etc."
             ]
         },
         {
             "Tab": "UEM",
-            "Title": "Maestría en Blockchain",
+            "Title": "Máster en Blockchain",
             "Date": "marzo de 2022 - julio de 2022",
             "Description": [
-              "Máster cursado en la <span class='underline'>Universidad Europea</span>, prestigiosa universidad privada española.",
-              "Aprendí a desarrollar sistemas de cadenas de bloques utilizando <span class='underline'>Solidity</span> y a implementarlos en varias cadenas de bloques compatibles con EVM, como <span class='underline'>Ethereum</span>, <span class= 'underline'>Polígono</span> y <span class='underline'>Avalancha</span>.",
-              "Creé nodos de las principales redes blockchain como <span class='underline'>Bitcoin</span>, <span class='underline'>Ethereum</span> y <span class='underline'>Hyperledger Fabric</ intervalo>.",
-              "Mi proyecto final de maestría fue <span class='underline'>Gastroo</span>, una Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFT con sus recetas incrustadas en ellos."
+              "Máster cursado en la <span class='underline'>Universidad Europea</span>, una prestigiosa universidad española.",
+              "Aprendí a desarrollar sistemas blockchain empleando <span class='underline'>Solidity</span> y a implementarlos en redes compatibles con la EVM, como <span class='underline'>Ethereum</span>, <span class= 'underline'>Polygon</span> y <span class='underline'>Avalanche</span>.",
+              "Creé nodos de las principales redes blockchain como <span class='underline'>Bitcoin</span>, <span class='underline'>Ethereum</span> y <span class='underline'>Hyperledger Fabric</span>.",
+              "Mi proyecto final de maestría fue <span class='underline'>Gastroo</span>, una Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFTs con sus recetas integradas en ellos."
             ]
         },
         {
-            "Tab": "Criptoavatares",
-            "Title": "Desarrollador de cadena de bloques",
+            "Tab": "CriptoAvatars",
+            "Title": "Desarrollador Blockchain",
             "Date": "Septiembre de 2022 - En curso",
             "Description": [
-              "Desarrollo del proyecto CryptoAvatars. Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para cadenas de bloques compatibles con EVM de múltiples metaversos.",
+              "Desarrollo del proyecto CryptoAvatars. Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para blockchains compatibles con la EVM y múltiples metaversos.",
               "Desarrollo del contrato inteligente CA-Marketplace, integración de sistemas frontend y backend con las cadenas soportadas.",
-              "Trabajar en un equipo Scrum de 10 personas",
+              "Trabajo en un equipo Scrum de 10 personas",
               "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask"
             ]
         }
@@ -69,8 +69,8 @@
     "FeatureProjects.Label": "Proyecto Destacado",
     "FeatureProjects.Projects": [
         {
-            "Title": "Gastrono",
-            "Description": "Un Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFT con sus recetas incrustadas en ellos.",
+            "Title": "Gastroo",
+            "Description": "Un Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFTs con sus recetas integradas en ellos.",
             "imgs": [
                 "assets/images/gastroo.png"
             ],
@@ -80,7 +80,7 @@
         },
         {
             "Title": "CryptoAvatars",
-            "Description": "Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para múltiples metaversos y cadenas de bloques compatibles con EVM. ¡Más próximamente!",
+            "Description": "Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para múltiples metaversos y blockchains compatibles con la EVM. ¡Más próximamente!",
             "demoLink": "https://cryptoavatars.io",
             "imgs": [
                 "assets/images/ca.png"
@@ -88,22 +88,22 @@
             "Technologies": ["Solidity", "Angular", "SCSS", "Nest.js", "Ethers.js", "MongoDB", "Redis"]
         },
         {
-            "Title": "Halo Armas NFT",
-            "Description": "Un proyecto de demostración simple en el que un usuario puede crear NFT compatibles con Opensea con modelos 3D de armas Halo incrustados en ellos.",
+            "Title": "Halo Weapons NFT",
+            "Description": "Un proyecto de demostración sencillo en el que un usuario puede crear NFTs compatibles con Opensea con modelos 3D de armas de Halo integrados en ellos.",
             "imgs": [
                 "assets/images/halo.png"
             ],
             "Technologies": ["Solidity", "Angular", "SCSS", "Moralis", "Angular Material", "Web3.js", "Model Viewer"]
         },
         {
-            "Title": "Conciliación de Riesgos BBVA",
-            "Description": "Herramienta interna utilizada por BBVA para detectar y estudiar discrepancias en las importaciones operativas entre los sistemas de front y back office.",
+            "Title": "Conciliación Riesgos BBVA",
+            "Description": "Herramienta interna empleada por BBVA para detectar y estudiar discrepancias entre los importes operativos entre los sistemas de front y back office.",
             "imgs": ["assets/images/bbva.png"],
             "Technologies": ["Python", "Pandas", "Streamlit", "Anaconda"]
         },
         {
             "Title": "Comida instantánea",
-            "Description": "Una aplicación de Android de muestra que permite a los usuarios pedir comida de varios restaurantes, pagar con varios métodos de pago y realizar un seguimiento de su pedido en tiempo real. Estaba destinado a implementar diferentes patrones de diseño.",
+            "Description": "Una aplicación Android que permite a los usuarios pedir comida de varios restaurantes, pagar con varios métodos de pago y realizar un seguimiento de su pedido en tiempo real. Estaba enfocado a demostrar el uso de distintos patrones de diseño.",
             "imgs": ["assets/images/instant_eat.png"],
             "ghLink": "https://github.com/MSchere/instantEat",
             "Technologies": ["Android Studio", "Java", "SQLite"]
@@ -115,25 +115,25 @@
     "OtherProjects.Title": "Otros Proyectos",
     "OtherProjects.Projects": [{
             "Title": "Vega SDK",
-            "Description": "SDK con funcionalidad LPUART personalizada para OpenISA Vegaboard. Se utilizó para desarrollar el puerto ICU FreeRTOS EPD de Solar Orbiter de mi proyecto de fin de carrera.",
+            "Description": "SDK con funcionalidad LPUART personalizada para Vegaboard de OpenISA. Se utilizó para desarrollar el puerto en FreeRTOS de la ICU del EPD de Solar Orbiter de mi trabajo de fin de carrera.",
             "ghLink": "https://github.com/MSchere/Vega_sdk",
             "Technologies": ["C", "RISC-V", "Eclipse", "Unix"]
         },
         {
             "Title": "PID para coche autónomo",
-            "Description": "Proyecto universitario para la clase de Sistemas de Tiempo Real. Implementa un controlador PID escrito en ADA que hace que un auto se conduzca solo en el simulador TORCS.",
+            "Description": "Proyecto universitario para la asignatura de Sistemas de Tiempo Real. Implementa un controlador PID escrito en ADA que hace que un automovil conduzca autónomamente en el simulador TORCS.",
             "ghLink": "https://github.com/MSchere/SelfDrivingCar",
             "Technologies": ["C++", "C", "Ada", "TORCS"]
         },
         {
             "Title": "Compilador",
-            "Description": "Proyecto universitario para la clase Compilers. Implementa un compilador para un lenguaje personalizado escrito en Java. Utiliza ANTLR para analizar el lenguaje y LLVM para generar el código.",
+            "Description": "Proyecto universitario para la asignatura de Compiladores. Implementa un compilador para un lenguaje personalizado escrito en Java. Utiliza ANTLR para analizar el lenguaje y LLVM para generar el código.",
             "ghLink": "https://github.com/MSchere/PL3Compiladores",
             "Technologies": ["Java", "ANTLR"]
         }
     ],
     "Contact.Pretitle": "Qué sigue",
     "Contact.Title": "Ponte en contacto",
-    "Contact.Content": "Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible para responderte!",
-    "Contact.Btn": "Di hola"
+    "Contact.Content": "Mi bandeja de entrada siempre está abierta. Si tienes una pregunta o si simplemente quieres saludarme, escríbeme. ¡Haré todo lo posible para responderte!",
+    "Contact.Btn": "Salúdame"
 }

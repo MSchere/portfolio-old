@@ -15,14 +15,14 @@
     }
 
     a.active{
-        background-color: $LightNavy !important;
+        background-color: $LightPurple !important;
         color: $Green !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
     
     a:hover{
-        background-color: $LightNavy !important;
+        background-color: $LightPurple !important;
         color: $Green !important;
         border-color: transparent !important;
         border-radius: 0px;
@@ -61,7 +61,7 @@
     }
 
     li{
-        border-left: 2px solid $LightestNavy;
+        border-left: 2px solid $LightestPurple;
         border-left-width: 2px;
         border-left-style: solid;
         border-left-color: rgb(48, 60, 85);

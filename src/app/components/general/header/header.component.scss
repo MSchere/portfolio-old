@@ -1,7 +1,7 @@
 @import "./../../../../variables.scss";
 .main-navbar {
     height: 70px;
-    background: $Navy;
+    background: $Purple;
     font-family: $CodeFont;
     .menu-ul{
       li{
@@ -64,7 +64,7 @@
         -webkit-box-align: center;
         align-items: center;
         flex-direction: column;
-        background-color: $LightNavy;
+        background-color: $LightPurple;
         height: 100%;
         position: relative;
         right: -625px;
@@ -233,7 +233,7 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 4px;
-    background: #172a45;
+    background: $DarkPurple;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -243,7 +243,7 @@
     color: #cbd5f5 !important;
     padding: 11px 8px !important;
     text-align: center;
-    background: #0a192f !important;
+    background: $DarkestPurple!important;
 }
 
 .language-container-selector.active {
@@ -251,25 +251,13 @@
     color: #cbd5f5 !important;
     padding: 11px 8px !important;
     text-align: center;
-    background: #172a45 !important;
+    background: $DarkPurple !important;
 }
 
 .language-container-selector:hover {
-    background: #172a45 !important;
+    background: $DarkPurple !important;
 }
 
-// .language-container-selector.active:after {
-//     content: " ";
-//     background: #58e2c4;
-//     width: 61%;
-//     height: 1px;
-//     position: absolute;
-//     border-radius: 10px;
-//     left: 0;
-//     right: 0;
-//     margin: auto;
-//     margin-top: 21px;
-// }
 .arrow-language {
     font-size: 10px;
     height: 10px;
@@ -284,10 +272,10 @@
 ::ng-deep .dropdown-menu.show {
     padding: 0 !important;
     border-radius: 7px !important;
-    background: #ccd6f6 !important;
+    background: $DarkPurple !important;
     margin-top: 10px !important;
     left: 20px !important;
-    box-shadow: 0 10px 30px -15px rgb(2 12 27 / 70%);
+    box-shadow: 0 10px 30px -15px rgb(40 10 95 / 70%);
 }
 
 .arrow-active {

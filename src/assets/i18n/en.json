@@ -36,8 +36,8 @@
             "Date": "September 2021 - August 2022",
             "Description": [
               "Development and maintenance of wholesale banking systems for <span class='underline'>BBVA</span>, a Spanish multinational bank.",
-              "Developed frontend systems using Java, <span class='underline'>Kotlin</span> and PHP.",
-              "Creation of data reconciliation scripts using <span class='underline'>Python</span> and <span class='underline'>Pandas</span>.",
+              "Developed frontend and backend systems using Java, <span class='underline'>Kotlin</span> and PHP.",
+              "Creation of data reconciliation scripts using <span class='underline'>Python</span> and the <span class='underline'>Pandas</span> library.",
               "MySQL, Oracle, Bitbucket, Jira, Jenkins, Unix etc."
             ]
         },
@@ -97,13 +97,13 @@
         },
         {
             "Title": "BBVA Risks Reconciliation",
-            "Description": "An internal tool used by BBVA to detect and study discrepancies in operational imports between the front and back office systems.",
+            "Description": "An internal tool used by BBVA to detect and study discrepancies in operational imports between front and back office systems.",
             "imgs": ["assets/images/bbva.png"],
             "Technologies": ["Python", "Pandas", "Streamlit", "Anaconda"]
         },
         {
             "Title": "Instant Eat",
-            "Description": "A sample Android app that allows users to order food from various restaurants, pay using various payment methods and track their order in real time. It was meant to implement different design patterns.",
+            "Description": "A sample Android app that allows users to order food from various restaurants, pay using various payment methods and track their order in real time. It was meant to demonstrate the use of different design patterns.",
             "imgs": ["assets/images/instant_eat.png"],
             "ghLink": "https://github.com/MSchere/instantEat",
             "Technologies": ["Android Studio", "Java", "SQLite"]
