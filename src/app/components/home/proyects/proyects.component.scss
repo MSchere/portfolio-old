@@ -32,7 +32,7 @@
                 color: $LightestSlate;
             }
             .proyect-description-box {
-                box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+                box-shadow: 0 10px 30px -15px rgb(40 10 95 / 70%);
                 -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
                 transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
                 position: relative;
@@ -175,7 +175,7 @@
         .proyect-info-right .proyect-box,
         .proyect-info-left .proyect-box {
             padding: 20px;
-            background: #0a192fe3;
+            background: $LightPurple;
         }
     }
 }
