@@ -112,7 +112,7 @@
                 "Web3.js",
                 "Model Viewer"
             ],
-            "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT",
+            "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT"
         },
         {
             "Title": "BBVA Risks Reconciliation",
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "Title": "Instant Eat",
+            "Title": "InstantEat",
             "Description": "A sample Android app that allows users to order food from various restaurants, pay using various payment methods and track their order in real time. It was meant to demonstrate the use of different design patterns.",
             "imgs": [
                 "assets/images/instant_eat.png"

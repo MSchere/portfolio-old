@@ -6,8 +6,8 @@
     "Header.cvBtn": "Currículum",
     "Header.cvName": "europass-ES.pdf",
     "Banner.Pretitle": "¡Hola mundo! Mi nombre es",
-    "Banner.Description": "Estoy trabajando en el desarrollo de productos de alta calidad en la <span class='underline'>Web 3.0</span> y <span class='underline'>El Metaverso</span>. Tengo la esperanza de poder llevar estas nuevas y emocionantes tecnologías a millones de personas y, con suerte, poder mejorar sus vidas de una forma u otra",
-    "Banner.ActionBtn": "Envíame un correo electrónico",
+    "Banner.Description": "Estoy trabajando en el desarrollo de productos de alta calidad en la <span class='underline'>Web 3.0</span> y <span class='underline'>El Metaverso</span>. Tengo ganas de poder llevar estas nuevas y emocionantes tecnologías a millones de personas y, con suerte, poder mejorar sus vidas de una u otra forma.",
+    "Banner.ActionBtn": "Envíame un email",
     "AboutMe.Title": "Acerca de mí",
     "AboutMe.Paragraphs": [
         "Ser un <span class='underline'>desarrollador de blockchain</span> me obliga a estar contínuamente aprendiendo ya que la industria se mueve mucho más rápido que mi conocimiento sobre ella. Sin embargo, aprender es uno de mis mayores placeres, además de hacer ejercicio, jugar a videojuegos y pasar tiempo con familiares y amigos.",
@@ -24,7 +24,7 @@
             "Description": [
                 "Títutlo de ingeniería cursado en la <span class='underline'>Universidad de Alcalá</span>, una universidad pública española.",
                 "Los 4 años más desafiantes de mi vida, en los que desarrollé una gran variedad de proyectos, algunos de los cuales incluyen un <span class='underline'>controlador de coches autónomos</span> utilizando ADA y el simulador TORCS, un <span class='underline'>compilador</span> para un lenguaje de programación personalizado escrito en Java y una <span class='underline'>aplicación para restaurantes de comida rápida</span> con Android Studio.",
-                "Como trabajo final de carrera, desarrollé un prototipo sobre FreeRTOS y RISC-V del software de aplicación de la EPD ICU a bordo del <span class='underline'>Solar Orbiter</span>. La EPD ICU es un dispositivo que sirve para medir el viento solar y el campo magnético del Sol y está montado en Solar Orbiter, una misión de la <span class='underline'>Agencia Espacial Europea</span>."
+                "Como trabajo final de carrera, desarrollé un prototipo sobre FreeRTOS y RISC-V del software de aplicación de la EPD ICU a bordo del <span class='underline'>Solar Orbiter</span>. La EPD ICU es un dispositivo empleado para medir el viento solar y el campo magnético del Sol y está montado en Solar Orbiter, una misión de la <span class='underline'>Agencia Espacial Europea</span>."
             ]
         },
         {
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "Title": "Comida instantánea",
+            "Title": "InstantEat",
             "Description": "Una aplicación Android que permite a los usuarios pedir comida de varios restaurantes, pagar con varios métodos de pago y realizar un seguimiento de su pedido en tiempo real. Estaba enfocado a demostrar el uso de distintos patrones de diseño.",
             "imgs": [
                 "assets/images/instant_eat.png"
@@ -177,6 +177,6 @@
     ],
     "Contact.Pretitle": "Qué sigue",
     "Contact.Title": "Ponte en contacto",
-    "Contact.Content": "Mi bandeja de entrada siempre está abierta. Si tienes una pregunta o si simplemente quieres saludarme, escríbeme. ¡Haré todo lo posible para responderte!",
+    "Contact.Content": "Mi bandeja de entrada siempre está abierta. Si tienes una pregunta o simplemente quieres saludarme, escríbeme. ¡Haré todo lo posible para responderte!",
     "Contact.Btn": "Salúdame"
 }
