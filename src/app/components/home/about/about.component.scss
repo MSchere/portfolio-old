@@ -87,17 +87,20 @@
 
 @media (max-width: 500px){
     .about{
-
         .about-img-container {
             width: 100%;
-
-            img{
+            img {
                 width: 180px;
                 height: 180px;
             }
 
             &:after {
-                display: none;
+                margin-left: auto;
+                margin-right: auto;
+                width: 180px;
+                height: 180px;
+                bottom: 170px;
+                left: 14px;
             }
         }
     }
