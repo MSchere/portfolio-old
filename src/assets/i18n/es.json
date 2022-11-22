@@ -132,7 +132,7 @@
             "Technologies": ["Java", "ANTLR"]
         }
     ],
-    "Contact.PreTitle": "Qué sigue",
+    "Contact.Pretitle": "Qué sigue",
     "Contact.Title": "Ponte en contacto",
     "Contact.Content": "Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible para responderte!",
     "Contact.Btn": "Di hola"

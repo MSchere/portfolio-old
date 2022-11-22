@@ -141,11 +141,13 @@
                             "devServerTarget": "angular-portfolio:serve:production"
                         }
                     }
+                },
+                "deploy": {
+                  "builder": "angular-cli-ghpages:deploy"
                 }
             }
         }
     },
-    "defaultProject": "angular-portfolio",
     "schematics": {
         "@schematics/angular:component": {
             "styleext": "scss"
