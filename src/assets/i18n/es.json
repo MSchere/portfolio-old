@@ -18,24 +18,14 @@
     "Experience.Title": "Estudios y Experiencia",
     "Experience.Jobs": [
         {
-            "Tab": "UAH",
-            "Title": "Ingeniería de Computadores",
-            "Date": "septiembre de 2017 - septiembre de 2021",
+            "Tab": "CriptoAvatars",
+            "Title": "Desarrollador Blockchain",
+            "Date": "Septiembre de 2022 - En curso",
             "Description": [
-                "Títutlo de ingeniería cursado en la <span class='underline'>Universidad de Alcalá</span>, una universidad pública española.",
-                "Los 4 años más desafiantes de mi vida, en los que desarrollé una gran variedad de proyectos, algunos de los cuales incluyen un <span class='underline'>controlador de coches autónomos</span> utilizando ADA y el simulador TORCS, un <span class='underline'>compilador</span> para un lenguaje de programación personalizado escrito en Java y una <span class='underline'>aplicación para restaurantes de comida rápida</span> con Android Studio.",
-                "Como trabajo final de carrera, desarrollé un prototipo sobre FreeRTOS y RISC-V del software de aplicación de la EPD ICU a bordo del <span class='underline'>Solar Orbiter</span>. La EPD ICU es un dispositivo empleado para medir el viento solar y el campo magnético del Sol y está montado en Solar Orbiter, una misión de la <span class='underline'>Agencia Espacial Europea</span>."
-            ]
-        },
-        {
-            "Tab": "NWorld",
-            "Title": "Consultor",
-            "Date": "septiembre de 2021 - agosto de 2022",
-            "Description": [
-                "Desarrollo y mantenimiento de sistemas de banca mayorista para el <span class='underline'>BBVA</span>, un banco multinacional español.",
-                "Desarrollé sistemas de frontend y backend usando Java, <span class='underline'>Kotlin</span> y PHP.",
-                "Creación de scripts de reconciliación de datos usando <span class='underline'>Python</span> y la librería <span class='underline'>Pandas</span>.",
-                "MySQL, Oracle, Bitbucket, Jira, Jenkins, Unix, etc."
+                "Desarrollo del proyecto CryptoAvatars. Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para blockchains compatibles con la EVM y múltiples metaversos.",
+                "Desarrollo del contrato inteligente CA-Marketplace, integración de sistemas frontend y backend con las cadenas soportadas.",
+                "Trabajo en un equipo Scrum de 10 personas",
+                "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask"
             ]
         },
         {
@@ -50,14 +40,24 @@
             ]
         },
         {
-            "Tab": "CriptoAvatars",
-            "Title": "Desarrollador Blockchain",
-            "Date": "Septiembre de 2022 - En curso",
+            "Tab": "NWorld",
+            "Title": "Consultor",
+            "Date": "septiembre de 2021 - agosto de 2022",
             "Description": [
-                "Desarrollo del proyecto CryptoAvatars. Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para blockchains compatibles con la EVM y múltiples metaversos.",
-                "Desarrollo del contrato inteligente CA-Marketplace, integración de sistemas frontend y backend con las cadenas soportadas.",
-                "Trabajo en un equipo Scrum de 10 personas",
-                "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask"
+                "Desarrollo y mantenimiento de sistemas de banca mayorista para el <span class='underline'>BBVA</span>, un banco multinacional español.",
+                "Desarrollé sistemas de frontend y backend usando Java, <span class='underline'>Kotlin</span> y PHP.",
+                "Creación de scripts de reconciliación de datos usando <span class='underline'>Python</span> y la librería <span class='underline'>Pandas</span>.",
+                "MySQL, Oracle, Bitbucket, Jira, Jenkins, Unix, etc."
+            ]
+        },
+        {
+            "Tab": "UAH",
+            "Title": "Ingeniería de Computadores",
+            "Date": "septiembre de 2017 - septiembre de 2021",
+            "Description": [
+                "Títutlo de ingeniería cursado en la <span class='underline'>Universidad de Alcalá</span>, una universidad pública española.",
+                "Los 4 años más desafiantes de mi vida, en los que desarrollé una gran variedad de proyectos, algunos de los cuales incluyen un <span class='underline'>controlador de coches autónomos</span> utilizando ADA y el simulador TORCS, un <span class='underline'>compilador</span> para un lenguaje de programación personalizado escrito en Java y una <span class='underline'>aplicación para restaurantes de comida rápida</span> con Android Studio.",
+                "Como trabajo final de carrera, desarrollé un prototipo sobre FreeRTOS y RISC-V del software de aplicación de la EPD ICU a bordo del <span class='underline'>Solar Orbiter</span>. La EPD ICU es un dispositivo empleado para medir el viento solar y el campo magnético del Sol y está montado en Solar Orbiter, una misión de la <span class='underline'>Agencia Espacial Europea</span>."
             ]
         }
     ],
