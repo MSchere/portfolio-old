@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1669243734609,
+  "timestamp": 1669244285205,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -220,8 +220,8 @@
     "/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/portfolio/assets/fonts/SFMono/stylesheet.css": "b6c8e6eb227dc3d0ae6b70b6a67930b190533453",
-    "/portfolio/assets/i18n/en.json": "b072ca621dca95d757ea523292681c1a4a7405fa",
-    "/portfolio/assets/i18n/es.json": "8833359b9e2c7f771f85b78b4189f74208973725",
+    "/portfolio/assets/i18n/en.json": "791a46832d19279f3ccc13b517a5a655afc7a0bc",
+    "/portfolio/assets/i18n/es.json": "70c979b45032a9f5dcee80566b3fe116d7344808",
     "/portfolio/assets/icons/folder.svg": "9b70ce8877c8a727520999b7f6f4756cae8f13b1",
     "/portfolio/assets/icons/icon-128x128.png": "6ec621358618a961643b4ad9552b2e181e72ac8e",
     "/portfolio/assets/icons/icon-144x144.png": "c7d201197fa659ec331374dfae0fb24c6f75d5f9",
@@ -256,7 +256,7 @@
     "/portfolio/fa-solid-900.d5b0a3566b352ee9.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
     "/portfolio/fa-solid-900.e67670b0779338ff.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "/portfolio/favicon.ico": "76c745bf6101895d71ec5f5f3e4ed514bda2f3f1",
-    "/portfolio/index.html": "c3f3f473437ae78d130d5d76426a874686a70eaf",
+    "/portfolio/index.html": "6a055ce9262b5822d48f3edaf14d485ee670e6e8",
     "/portfolio/main.0c39c03e7fcda285.js": "c4b660e630289946d88936b880b99fc00e508ed5",
     "/portfolio/manifest.webmanifest": "d72a611faaeb3877c4e91141d35331486d7d4e16",
     "/portfolio/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",

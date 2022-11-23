@@ -18,24 +18,14 @@
     "Experience.Title": "Studies & Experience",
     "Experience.Jobs": [
         {
-            "Tab": "UAH",
-            "Title": "Computer Engineering",
-            "Date": "September 2017 - September 2021",
+            "Tab": "CryptoAvatars",
+            "Title": "Blockchain developer",
+            "Date": "September 2022 - Ongoing",
             "Description": [
-                "Engineering degree taken at <span class='underline'>Universidad de Alcalá</span>, a Spanish public university.",
-                "The most challenging 4 years of my life, in which I developed a great variety of projects, some of which include a <span class='underline'>self-driving car controller</span> using ADA and the TORCS simulator, a <span class='underline'>compiler</span> for a custom programming language written in Java and a <span class='underline'>fast-food restaurant app</span> using Android Studio.",
-                "As my final degree project, I developed a prototype on FreeRTOS and RISC-V of the application software of the EPD ICU onboard <span class='underline'>Solar Orbiter</span>. The EPD ICU is a device used to measure the solar wind and the magnetic field of the Sun and it's mounted on Solar Orbiter, a mission of the <span class='underline'>European Space Agency</span>."
-            ]
-        },
-        {
-            "Tab": "NWorld",
-            "Title": "Consultant",
-            "Date": "September 2021 - August 2022",
-            "Description": [
-                "Development and maintenance of wholesale banking systems for <span class='underline'>BBVA</span>, a Spanish multinational bank.",
-                "Developed frontend and backend systems using Java, <span class='underline'>Kotlin</span> and PHP.",
-                "Creation of data reconciliation scripts using <span class='underline'>Python</span> and the <span class='underline'>Pandas</span> library.",
-                "MySQL, Oracle, Bitbucket, Jira, Jenkins, Unix etc."
+                "Development of the CryptoAvatars project. A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses EVM-compatible blockchains.",
+                "Development of the CA-Marketplace smart contract, integration of frontend and backend systems with the supported chains.",
+                "Working in a 10 person Scrum team",
+                "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask."
             ]
         },
         {
@@ -50,14 +40,24 @@
             ]
         },
         {
-            "Tab": "CryptoAvatars",
-            "Title": "Blockchain developer",
-            "Date": "September 2022 - Ongoing",
+            "Tab": "NWorld",
+            "Title": "Consultant",
+            "Date": "September 2021 - August 2022",
             "Description": [
-                "Development of the CryptoAvatars project. A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses EVM-compatible blockchains.",
-                "Development of the CA-Marketplace smart contract, integration of frontend and backend systems with the supported chains.",
-                "Working in a 10 person Scrum team",
-                "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask."
+                "Development and maintenance of wholesale banking systems for <span class='underline'>BBVA</span>, a Spanish multinational bank.",
+                "Developed frontend and backend systems using Java, <span class='underline'>Kotlin</span> and PHP.",
+                "Creation of data reconciliation scripts using <span class='underline'>Python</span> and the <span class='underline'>Pandas</span> library.",
+                "MySQL, Oracle, Bitbucket, Jira, Jenkins, Unix etc."
+            ]
+        },
+        {
+            "Tab": "UAH",
+            "Title": "Computer Engineering",
+            "Date": "September 2017 - September 2021",
+            "Description": [
+                "Engineering degree taken at <span class='underline'>Universidad de Alcalá</span>, a Spanish public university.",
+                "The most challenging 4 years of my life, in which I developed a great variety of projects, some of which include a <span class='underline'>self-driving car controller</span> using ADA and the TORCS simulator, a <span class='underline'>compiler</span> for a custom programming language written in Java and a <span class='underline'>fast-food restaurant app</span> using Android Studio.",
+                "As my final degree project, I developed a prototype on FreeRTOS and RISC-V of the application software of the EPD ICU onboard <span class='underline'>Solar Orbiter</span>. The EPD ICU is a device used to measure the solar wind and the magnetic field of the Sun and it's mounted on Solar Orbiter, a mission of the <span class='underline'>European Space Agency</span>."
             ]
         }
     ],
