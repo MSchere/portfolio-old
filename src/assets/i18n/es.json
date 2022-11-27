@@ -100,17 +100,17 @@
         {
             "Title": "Halo Weapons NFT",
             "Description": "Un proyecto de demostración sencillo en el que un usuario puede crear NFTs compatibles con Opensea con modelos 3D de armas de Halo integrados en ellos.",
+            "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT",
+            "demoLink": "https://mschere.github.io/Halo_Weapons_NFT_frontend",
             "imgs": [
                 "assets/images/halo.png"
             ],
-            "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT",
             "Technologies": [
                 "Solidity",
                 "Angular",
                 "SCSS",
-                "Moralis",
                 "Angular Material",
-                "Web3.js",
+                "ethers.js",
                 "Model Viewer"
             ]
         },

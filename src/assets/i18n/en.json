@@ -100,6 +100,8 @@
         {
             "Title": "Halo Weapons NFT",
             "Description": "A simple demo project in which a user can mint Opensea-compatible NFTs with 3D models of Halo weapons embedded into them.",
+            "demoLink": "https://mschere.github.io/Halo_Weapons_NFT_frontend",
+            "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT",
             "imgs": [
                 "assets/images/halo.png"
             ],
@@ -107,12 +109,10 @@
                 "Solidity",
                 "Angular",
                 "SCSS",
-                "Moralis",
                 "Angular Material",
-                "Web3.js",
+                "ethers.js",
                 "Model Viewer"
-            ],
-            "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT"
+            ]
         },
         {
             "Title": "BBVA Risks Reconciliation",
