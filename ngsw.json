@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1669553446265,
+  "timestamp": 1669833443900,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -220,7 +220,7 @@
     "/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/portfolio/assets/fonts/SFMono/stylesheet.css": "b6c8e6eb227dc3d0ae6b70b6a67930b190533453",
-    "/portfolio/assets/i18n/en.json": "8bec84b5576f576836626abbb98f3aeb3e1c7d8d",
+    "/portfolio/assets/i18n/en.json": "aa9c06192949fa8d05ba115e974b637f4c6f1d1d",
     "/portfolio/assets/i18n/es.json": "7823014c2d8226ee0d1ea6d2a960792bc9df9a6a",
     "/portfolio/assets/icons/folder.svg": "9b70ce8877c8a727520999b7f6f4756cae8f13b1",
     "/portfolio/assets/icons/icon-128x128.png": "6ec621358618a961643b4ad9552b2e181e72ac8e",
@@ -231,7 +231,7 @@
     "/portfolio/assets/icons/icon-512x512.png": "e77515774ef8bf35a40195d306fa0370c40f57bc",
     "/portfolio/assets/icons/icon-72x72.png": "60ccb605fd6a976c8ae2e5bc493f8b1208635557",
     "/portfolio/assets/icons/icon-96x96.png": "139bf643844d40356bf5e460de25852c98d2ca71",
-    "/portfolio/assets/images/bbva.png": "f98d120de4f195b6ef1abb573c7318a601f4d34a",
+    "/portfolio/assets/images/bbva.png": "7b19663121ee3afbd283961aa09951fe86f5c3fb",
     "/portfolio/assets/images/ca.png": "199c51fa4a0d022a8602bac3f0ecdbc6e2abec9e",
     "/portfolio/assets/images/favicon.ico": "76c745bf6101895d71ec5f5f3e4ed514bda2f3f1",
     "/portfolio/assets/images/gastroo.png": "168f0291326a89e2857ff5c0bcabf247f76d1049",
