@@ -22,7 +22,7 @@
             "Title": "Blockchain developer",
             "Date": "September 2022 - Ongoing",
             "Description": [
-                "Development of the CryptoAvatars project. A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses EVM-compatible blockchains.",
+                "Development of the CryptoAvatars project. A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses and EVM-compatible blockchains.",
                 "Development of the CA-Marketplace smart contract, integration of frontend and backend systems with the supported chains.",
                 "Working in a 10 person Scrum team",
                 "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask."
