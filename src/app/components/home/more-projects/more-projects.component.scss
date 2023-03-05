@@ -1,6 +1,6 @@
 @import "./../../../../variables.scss";
 
-.more-proyects{
+.more-projects{
     .proyect-col{
         padding: 10px;
         height: 400px;
@@ -63,7 +63,7 @@
                 color: $LightSlate;
             }
 
-            .more-proyects-skills{
+            .more-projects-skills{
                 display: -webkit-box;
                 display: -webkit-flex;
                 display: -ms-flexbox;
@@ -101,7 +101,7 @@
 
 
 @media(max-width: 1300px){
-    .more-proyects{
+    .more-projects{
         .proyect-col{
             height: auto;
         }
