@@ -22,9 +22,9 @@
             "Title": "Desarrollador Blockchain",
             "Date": "Septiembre de 2022 - En curso",
             "Description": [
-                "Desarrollo del proyecto CryptoAvatars. Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para blockchains compatibles con la EVM y múltiples metaversos.",
-                "Desarrollo del contrato inteligente CA-Marketplace, integración de sistemas frontend y backend con las cadenas soportadas.",
-                "Trabajo en un equipo Scrum de 10 personas",
+                "Desarrollo del proyecto <span class='underline'>CryptoAvatars</span>. Un mercado Web 3.0 donde cualquiera puede comprar o crear avatares tokenizados listos para <span class='underline'>blockchains compatibles con la EVM</span> y múltiples metaversos.",
+                "Desarrollo del <span class='underline'>smart contract</span> CA-Marketplace, integración de sistemas frontend y backend con las cadenas soportadas.",
+                "Trabajo en un <span class='underline'>equipo Scrum</span> de 10 personas",
                 "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask"
             ]
         },
