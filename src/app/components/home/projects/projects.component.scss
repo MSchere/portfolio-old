@@ -1,24 +1,24 @@
 @import "./../../../../variables.scss";
 .projects {
-    .proyect-container {
+    .project-container {
         height: 360px;
         margin: 100px 0;
-        .proyect-info-left {
+        .project-info-left {
             width: 50%;
             margin-right: -57px;
             margin-left: 0px;
             display: table;
         }
-        .proyect-info-right {
+        .project-info-right {
             width: 50%;
             margin-left: -57px;
             margin-right: 0px;
             display: table;
         }
-        .proyect-box {
+        .project-box {
             display: table-cell;
             vertical-align: middle;
-            .feature-proyect {
+            .feature-project {
                 font-size: 13px;
                 font-weight: normal;
                 color: $Green;
@@ -26,12 +26,12 @@
                 margin-top: 10px;
                 padding-top: 0;
             }
-            .proyect-name {
+            .project-name {
                 font-size: 28px;
                 margin: 0 0 20px;
                 color: $LightestSlate;
             }
-            .proyect-description-box {
+            .project-description-box {
                 box-shadow: 0 10px 30px -15px rgb(40 10 95 / 70%);
                 -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
                 transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -43,7 +43,7 @@
                 font-size: 18px;
                 border-radius: 3px;
             }
-            .proyect-skills {
+            .project-skills {
                 position: relative;
                 z-index: 2;
                 display: -webkit-box;
@@ -68,7 +68,7 @@
                     }
                 }
             }
-            .proyect-links {
+            .project-links {
                 margin-top: 10px;
                 i {
                     font-size: 22px;
@@ -81,7 +81,7 @@
 .owl-carousel-o{
     width: 600px;
 }
-.img-feature-proyect-container {
+.img-feature-project-container {
     display:  none;
 }
 
@@ -89,28 +89,28 @@
     .owl-carousel-o{
         display: none;
     }
-    .img-feature-proyect-container {
+    .img-feature-project-container {
         width: 50%;
         display: table !important;
         height: -webkit-fill-available;
-        .img-feature-proyect-box {
+        .img-feature-project-box {
             display: table-cell;
             vertical-align: middle;
         }
-        .img-feature-proyect {
+        .img-feature-project {
             width: 100%;
         }
     }
-    .proyect-info-right,
-    .proyect-info-left {
+    .project-info-right,
+    .project-info-left {
         width: 50%;
     }
 }
 
 @media (min-width: 768px) {
 
-    .proyect-info-right,
-    .proyect-info-left {
+    .project-info-right,
+    .project-info-left {
         background-image: none !important;
     }
 }
@@ -120,16 +120,16 @@
         display: none;
     }
     .projects {
-        .proyect-container {
+        .project-container {
             height: 100% !important;
             margin: 33px 0 !important;
-            .proyect-info-left {
+            .project-info-left {
                 width: 100%;
             }
-            .proyect-info-right {
+            .project-info-right {
                 width: 100%;
             }
-            .proyect-description-box {
+            .project-description-box {
                 padding: 0px !important;
                 box-shadow: none !important;
                 position: relative;
@@ -140,24 +140,24 @@
                 font-size: 18px;
                 border-radius: 3px;
             }
-            .proyect-info-right,
-            .proyect-info-left {
+            .project-info-right,
+            .project-info-left {
                 display: block !important;
                 margin: 0px !important;
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
                 border-radius: 3px;
-                .proyect-box {
+                .project-box {
                     display: block;
                 }
             }
-            .img-feature-proyect-container {
+            .img-feature-project-container {
                 display: none;
             }
         }
-        .proyect-info-right,
-        .proyect-info-left {
+        .project-info-right,
+        .project-info-left {
             padding: 0px;
         }
         .text-right,
@@ -172,8 +172,8 @@
         }
 
 
-        .proyect-info-right .proyect-box,
-        .proyect-info-left .proyect-box {
+        .project-info-right .project-box,
+        .project-info-left .project-box {
             padding: 20px;
             background: $LightPurple;
         }

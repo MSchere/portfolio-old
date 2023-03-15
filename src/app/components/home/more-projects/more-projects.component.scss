@@ -1,11 +1,11 @@
 @import "./../../../../variables.scss";
 
 .more-projects{
-    .proyect-col{
+    .project-col{
         padding: 10px;
         height: 400px;
 
-        .more-proyect-box {
+        .more-project-box {
             box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
             -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
             transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -52,13 +52,13 @@
                 color: $Green;
             }
 
-            .other-proyect-title{
+            .other-project-title{
                 margin: 0 0 10px;
                 font-size: 22px;
                 color: $LightestSlate;
             }
 
-            .other-proyect-description{
+            .other-project-description{
                 font-size: 17px;
                 color: $LightSlate;
             }
@@ -102,7 +102,7 @@
 
 @media(max-width: 1300px){
     .more-projects{
-        .proyect-col{
+        .project-col{
             height: auto;
         }
     }
