@@ -1,7 +1,8 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-import {trigger, state, style, animate, transition, stagger, query } from "@angular/animations"
+import { animate, query, stagger, style, transition, trigger } from "@angular/animations";
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { BionicReadingService } from 'src/app/services/bionicreadingservice/bionicReading.service';
 
 @Component({
   selector: 'app-banner',
@@ -25,13 +26,16 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class BannerComponent implements OnInit {
 
-  
-
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    private readonly bionicReadingService: BionicReadingService
   ) { }
 
   ngOnInit(): void { 
+  }
+
+  toBionicReading(paragraph: string) {
+    return this.bionicReadingService.toBionicReading(paragraph);
   }
   
 

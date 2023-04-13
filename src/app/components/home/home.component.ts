@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({

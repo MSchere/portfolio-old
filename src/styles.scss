@@ -13,6 +13,11 @@ body{
     font-family: $MainFont;
     font-size: 20px;
 }
+
+b, strong {
+    color: $LightSlate;
+}
+
 .section-box{
     padding: 130px 0;
 }
