@@ -18,12 +18,13 @@
     "Experience.Title": "Studies & Experience",
     "Experience.Jobs": [
         {
-            "Tab": "CryptoAvatars",
+            "Tab": "Polygonal Mind",
             "Title": "Blockchain developer",
             "Date": "September 2022 - Ongoing",
             "Description": [
-                "Development of the <span class='underline'>CryptoAvatars</span> project. A Web 3.0 marketplace where anyone can buy or create tokenized avatars ready for multiple metaverses and <span class='underline'>EVM-compatible blockchains</span>.",
+                "Development of the <span class='underline'>Virtual Persona</span> project. A Web 3.0 marketplace buy, sell or create tokenized avatars ready for multiple metaverses and <span class='underline'>EVM-compatible blockchains</span>.",
                 "Development of the CA-Marketplace <span class='underline'>smart contract</span>, integration of frontend and backend systems with the supported chains.",
+                "Development of Web3 projects for <span class='underline'>external clients</span> such as <span class='underline'>NFT</span> collections and <span class='underline'>DAOs</span>.",
                 "Working in a 10 person <span class='underline'>Scrum team</span>.",
                 "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask."
             ]
@@ -65,6 +66,23 @@
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [
         {
+            "Title": "Virtual Persona",
+            "Description": "A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses and EVM-compatible blockchains.",
+            "demoLink": "https://vipe.io",
+            "imgs": [
+                "assets/images/vipe.png"
+            ],
+            "Technologies": [
+                "Solidity",
+                "Angular",
+                "SCSS",
+                "Nest.js",
+                "Ethers.js",
+                "MongoDB",
+                "Redis"
+            ]
+        },
+        {
             "Title": "Gastroo",
             "Description": "A Web 3.0 Dapp that allows foodies to monetize their culinary contents by creating NFTs with their recipes embedded into them.",
             "imgs": [
@@ -82,7 +100,7 @@
         },
         {
             "Title": "CryptoAvatars",
-            "Description": "A Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses and EVM-compatible blockchains. More coming soon!",
+            "Description": "Online toolset for tokenized & interoperable avatar creation.",
             "demoLink": "https://cryptoavatars.io",
             "imgs": [
                 "assets/images/ca.png"
@@ -143,6 +161,26 @@
     "OtherProjects.Title": "More projects",
     "OtherProjects.Projects": [
         {
+            "Title": "Rust Portfolio",
+            "Description": "This same site but built in Rust using the Yew.rs framework. This was meant to be a sample demo project for me to better understand Rust's WebAssembly capabilities.",
+            "ghLink": "https://github.com/MSchere/portfolio_rust",
+            "Technologies": [
+                "Yew.rs",
+                "Rust",
+                "Trunk",
+                "WASM"
+            ]
+        },
+        {
+            "Title": "WetaBot",
+            "Description": "Python bot that automatically orders my food from the Wetaca food service using the Selenium scraping library.",
+            "ghLink": "https://github.com/MSchere/WetaBot",
+            "Technologies": [
+                "Python 3",
+                "Selenium"
+            ]
+        },
+        {
             "Title": "Vega SDK",
             "Description": "SDK with custom LPUART functionality for the OpenISA Vegaboard. Used to develop the Solar Orbiter FreeRTOS EPD ICU port from my final degree project.",
             "ghLink": "https://github.com/MSchere/Vega_sdk",
@@ -163,19 +201,10 @@
                 "Ada",
                 "TORCS"
             ]
-        },
-        {
-            "Title": "Compiler",
-            "Description": "University project for the Compilers class. Implements a compiler for a custom language written in Java. It uses ANTLR to parse the language and LLVM to generate the code.",
-            "ghLink": "https://github.com/MSchere/PL3Compiladores",
-            "Technologies": [
-                "Java",
-                "ANTLR"
-            ]
         }
     ],
-    "Contact.Pretitle": "What’s Next",
+    "Contact.Pretitle": "What's Next",
     "Contact.Title": "Get in touch",
-    "Contact.Content": "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!",
+    "Contact.Content": "My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
     "Contact.Btn": "Say Hello"
 }

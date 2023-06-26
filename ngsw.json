@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1681421192170,
+  "timestamp": 1687809096868,
   "index": "https://mschere.github.io/portfolio/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "https://mschere.github.io/portfolio/favicon.ico",
         "https://mschere.github.io/portfolio/index.html",
-        "https://mschere.github.io/portfolio/main.5027afa93a253ad0.js",
+        "https://mschere.github.io/portfolio/main.01fbbf191a48fe87.js",
         "https://mschere.github.io/portfolio/manifest.webmanifest",
         "https://mschere.github.io/portfolio/polyfills.76d478f5da1d22aa.js",
         "https://mschere.github.io/portfolio/runtime.8f372bb976a0d6c9.js",
         "https://mschere.github.io/portfolio/scripts.79dbe02e698e542d.js",
-        "https://mschere.github.io/portfolio/styles.78630a23953bf0b1.css"
+        "https://mschere.github.io/portfolio/styles.adec513cd5290a98.css"
       ],
       "patterns": []
     },
@@ -115,7 +115,8 @@
         "https://mschere.github.io/portfolio/assets/images/instant_eat.png",
         "https://mschere.github.io/portfolio/assets/images/logo.png",
         "https://mschere.github.io/portfolio/assets/images/logo_small.png",
-        "https://mschere.github.io/portfolio/assets/images/me.jpg",
+        "https://mschere.github.io/portfolio/assets/images/me.png",
+        "https://mschere.github.io/portfolio/assets/images/vipe.png",
         "https://mschere.github.io/portfolio/fa-brands-400.0e53fe4feaaacc48.woff",
         "https://mschere.github.io/portfolio/fa-brands-400.7edea186e9687169.woff2",
         "https://mschere.github.io/portfolio/fa-brands-400.9c02eaf6eede2776.ttf",
@@ -166,8 +167,8 @@
     "https://mschere.github.io/portfolio/SFMono-Semibold.849266397229adad.woff": "999e816498b39e99896d09cb18614e5bb700fa8e",
     "https://mschere.github.io/portfolio/SFMono-SemiboldItalic.0ef5133ede504d56.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "https://mschere.github.io/portfolio/SFMono-SemiboldItalic.33cb8d6968ae9130.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
-    "https://mschere.github.io/portfolio/assets/cv/Europass_EN.pdf": "7756e3815dff37e5b7e077f59d7fb8b58625f451",
-    "https://mschere.github.io/portfolio/assets/cv/Europass_ES.pdf": "3eedb2e0ba951efc6a3a846d5e3b51c336f4ad93",
+    "https://mschere.github.io/portfolio/assets/cv/Europass_EN.pdf": "336fbdd64b8efe71c7bacd913c4f3e07ddee4ff8",
+    "https://mschere.github.io/portfolio/assets/cv/Europass_ES.pdf": "ab151b5ef5fe48be1087a5cf63d4c386f04b15ad",
     "https://mschere.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.ttf": "8eccfc3783b04d13dec5887a15c3e00fd28bef7c",
     "https://mschere.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.woff": "e3fbab74fa86b97c78ad1b1965b327fe5b2a1adb",
     "https://mschere.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.woff2": "70021b39a260c5f53d2ec5ba30f37163bbe0ef14",
@@ -212,8 +213,8 @@
     "https://mschere.github.io/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "https://mschere.github.io/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "https://mschere.github.io/portfolio/assets/fonts/SFMono/stylesheet.css": "b6c8e6eb227dc3d0ae6b70b6a67930b190533453",
-    "https://mschere.github.io/portfolio/assets/i18n/en.json": "942d0a4816a7ea0dbf61b87c5bfaa004deb2474d",
-    "https://mschere.github.io/portfolio/assets/i18n/es.json": "d324b8f10edbdb6c34e18ab56fc5856f17e8b96b",
+    "https://mschere.github.io/portfolio/assets/i18n/en.json": "9d7586b13c5f475e74714e032b1cdf69df90586a",
+    "https://mschere.github.io/portfolio/assets/i18n/es.json": "5dde0df9c5f548f030f1b3740e373a470fa0613e",
     "https://mschere.github.io/portfolio/assets/icons/folder.svg": "9b70ce8877c8a727520999b7f6f4756cae8f13b1",
     "https://mschere.github.io/portfolio/assets/images/bbva.png": "7b19663121ee3afbd283961aa09951fe86f5c3fb",
     "https://mschere.github.io/portfolio/assets/images/ca.png": "199c51fa4a0d022a8602bac3f0ecdbc6e2abec9e",
@@ -223,7 +224,8 @@
     "https://mschere.github.io/portfolio/assets/images/instant_eat.png": "b7fa9151984d776235db1847ce0322934a6add72",
     "https://mschere.github.io/portfolio/assets/images/logo.png": "a185206a93a6c98d5cf71a698e1e2cf241e53a9a",
     "https://mschere.github.io/portfolio/assets/images/logo_small.png": "cab4c2c1755420834e30935719c8f17f8a154223",
-    "https://mschere.github.io/portfolio/assets/images/me.jpg": "1edf1f16679ad8d573d1c3d1bf99cd7e2066c798",
+    "https://mschere.github.io/portfolio/assets/images/me.png": "05d4ca8e9f89ad3402abdae3c90525fa19454164",
+    "https://mschere.github.io/portfolio/assets/images/vipe.png": "08e2c2225345fd375f3023d6ba22a5267ebb8c47",
     "https://mschere.github.io/portfolio/fa-brands-400.0e53fe4feaaacc48.woff": "1e1f02bfa89e179fe2dd1383273b8812aa873418",
     "https://mschere.github.io/portfolio/fa-brands-400.7edea186e9687169.woff2": "0613c7ebba55ee47ef302c0f7766324692f899a7",
     "https://mschere.github.io/portfolio/fa-brands-400.9c02eaf6eede2776.ttf": "8ab907083fecaaa2a9ec93b27f884ad74573705c",
@@ -240,14 +242,14 @@
     "https://mschere.github.io/portfolio/fa-solid-900.d5b0a3566b352ee9.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
     "https://mschere.github.io/portfolio/fa-solid-900.e67670b0779338ff.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "https://mschere.github.io/portfolio/favicon.ico": "76c745bf6101895d71ec5f5f3e4ed514bda2f3f1",
-    "https://mschere.github.io/portfolio/index.html": "2524d04bd5e9a2365c23185d3e3bdcf4ae593c6d",
-    "https://mschere.github.io/portfolio/main.5027afa93a253ad0.js": "52af3576fd166de233a564db47ccde437e91d14a",
+    "https://mschere.github.io/portfolio/index.html": "3bf0be563a03de38f4ab80796e3d0f3d66a63702",
+    "https://mschere.github.io/portfolio/main.01fbbf191a48fe87.js": "7763f732163a6af64c6d0b36ecd9c11aafff91db",
     "https://mschere.github.io/portfolio/manifest.webmanifest": "d72a611faaeb3877c4e91141d35331486d7d4e16",
     "https://mschere.github.io/portfolio/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://mschere.github.io/portfolio/polyfills.76d478f5da1d22aa.js": "b9a002bea6e0a4662e833f2026578bc9654cc185",
     "https://mschere.github.io/portfolio/runtime.8f372bb976a0d6c9.js": "6184ec1a8fd6c1816b6b11a65e80190e029ccabb",
     "https://mschere.github.io/portfolio/scripts.79dbe02e698e542d.js": "442455af48c5b8cc9c9095ff534a7e5350430371",
-    "https://mschere.github.io/portfolio/styles.78630a23953bf0b1.css": "a6017e74fe3e2e57b18b48042f8ef018f139e478"
+    "https://mschere.github.io/portfolio/styles.adec513cd5290a98.css": "e6e201ac62e9b9be841ce0c87aa5769afb7ba113"
   },
   "navigationUrls": [
     {
