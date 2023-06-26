@@ -10,19 +10,19 @@
 
     ul{
         display: block;
-        width: 134.33px;
+        width: 164.33px;
         border: none;
     }
 
     a.active{
-        background-color: $LightPurple !important;
+        background-color: $LightBlue !important;
         color: $Green !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
     
     a:hover{
-        background-color: $LightPurple !important;
+        background-color: $LightBlue !important;
         color: $Green !important;
         border-color: transparent !important;
         border-radius: 0px;
@@ -61,7 +61,7 @@
     }
 
     li{
-        border-left: 2px solid $LightestPurple;
+        border-left: 2px solid $LightestBlue;
         border-left-width: 2px;
         border-left-style: solid;
         border-left-color: rgb(48, 60, 85);
@@ -70,7 +70,7 @@
 
 .jobs{
 
-    max-width: 700px;
+    max-width: 770px;
     margin: auto;
 
     .title-tab-content{
@@ -117,6 +117,9 @@
     .jobs {
         .job-description{
             padding: 0px;
+            &:before {
+                content: none;
+            }
         }
     }
     ::ng-deep .jobs-tabs{

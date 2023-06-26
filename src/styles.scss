@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: $Purple;
+    background-color: $Blue;
     color: $Slate;
     line-height: 1.3;
     font-family: $MainFont;
@@ -22,7 +22,7 @@ b, strong {
     padding: 130px 0;
 }
 .section{
-    background: $Purple;
+    background: $Blue;
 }
 
 .code-font{
@@ -68,7 +68,7 @@ b, strong {
         display: block;
         height: 1px;
         width: 300px;
-        background-color: $LightestPurple;
+        background-color: $LightestBlue;
         position: relative;
         top: -5px;
         margin-left: 20px;

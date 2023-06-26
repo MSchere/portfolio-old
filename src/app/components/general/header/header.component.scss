@@ -1,7 +1,7 @@
 @import "./../../../../variables.scss";
 .main-navbar {
     height: 70px;
-    background: $Purple;
+    background: $Blue;
     font-family: $CodeFont;
     .menu-ul{
       li{
@@ -64,7 +64,7 @@
         -webkit-box-align: center;
         align-items: center;
         flex-direction: column;
-        background-color: $LightPurple;
+        background-color: $LightBlue;
         height: 100%;
         position: relative;
         right: -625px;
@@ -233,7 +233,7 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 4px;
-    background: $DarkPurple;
+    background: $DarkBlue;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -243,7 +243,7 @@
     color: #cbd5f5 !important;
     padding: 11px 8px !important;
     text-align: center;
-    background: $DarkestPurple!important;
+    background: $DarkestBlue!important;
 }
 
 .language-container-selector.active {
@@ -251,11 +251,11 @@
     color: #cbd5f5 !important;
     padding: 11px 8px !important;
     text-align: center;
-    background: $DarkPurple !important;
+    background: $DarkBlue !important;
 }
 
 .language-container-selector:hover {
-    background: $DarkPurple !important;
+    background: $DarkBlue !important;
 }
 
 .arrow-language {
@@ -272,7 +272,7 @@
 ::ng-deep .dropdown-menu.show {
     padding: 0 !important;
     border-radius: 7px !important;
-    background: $DarkPurple !important;
+    background: $DarkBlue !important;
     margin-top: 10px !important;
     left: 20px !important;
     box-shadow: 0 10px 30px -15px rgb(40 10 95 / 70%);

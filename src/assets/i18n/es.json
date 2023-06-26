@@ -22,8 +22,9 @@
             "Title": "Desarrollador Blockchain",
             "Date": "Septiembre de 2022 - En curso",
             "Description": [
-                "Desarrollo del proyecto <span class='underline'>CryptoAvatars</span>. Un mercado Web 3.0 donde cualquiera puede comprar o crear avatares tokenizados listos para <span class='underline'>blockchains compatibles con la EVM</span> y múltiples metaversos.",
+                "Desarrollo del proyecto <span class='underline'>Virtual Persona</span>. Un mercado Web 3.0 donde cualquiera puede comprar o crear avatares tokenizados listos para <span class='underline'>blockchains compatibles con la EVM</span> y múltiples metaversos.",
                 "Desarrollo del <span class='underline'>smart contract</span> CA-Marketplace, integración de sistemas frontend y backend con las cadenas soportadas.",
+                "Desarrollo de proyectos Web3 para <span class='underline'>clientes externos</span> como colecciones <span class='underline'>NFT</span> y <span class='underline'>DAOs</span> .",
                 "Trabajo en un <span class='underline'>equipo Scrum</span> de 10 personas",
                 "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask"
             ]
@@ -65,8 +66,25 @@
     "FeatureProjects.Label": "Proyecto Destacado",
     "FeatureProjects.Projects": [
         {
+            "Title": "Virtual Persona",
+            "Description": "Un marketplace Web 3.0 donde comprar o vender avatares tokenizados listos para múltiples metaversos y blockchains compatibles con la EVM.",
+            "demoLink": "https://vipe.io",
+            "imgs": [
+                "assets/images/vipe.png"
+            ],
+            "Technologies": [
+                "Solidity",
+                "Angular",
+                "SCSS",
+                "Nest.js",
+                "Ethers.js",
+                "MongoDB",
+                "Redis"
+            ]
+        },
+        {
             "Title": "Gastroo",
-            "Description": "Un Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFTs con sus recetas integradas en ellos.",
+            "Description": "Una Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFTs con sus recetas integradas en ellos.",
             "imgs": [
                 "assets/images/gastroo.png"
             ],
@@ -82,7 +100,7 @@
         },
         {
             "Title": "CryptoAvatars",
-            "Description": "Un mercado Web 3.0 donde cualquiera puede comprar avatares tokenizados listos para múltiples metaversos y blockchains compatibles con la EVM. ¡Más próximamente!",
+            "Description": "Toolset online para crear avatares 3D interoperables y tokenizarlos como NFTs.",
             "demoLink": "https://cryptoavatars.io",
             "imgs": [
                 "assets/images/ca.png"
@@ -143,6 +161,26 @@
     "OtherProjects.Title": "Otros Proyectos",
     "OtherProjects.Projects": [
         {
+            "Title": "Rust Portfolio",
+            "Description": "Portfolio personal desarrollado en Rust con el framework Yew.rs. Se trata de un proyecto de demo que me ayudó a aprender Rust y a familiarizarme con el desarrollo de aplicaciones WebAssembly.",
+            "ghLink": "https://github.com/MSchere/portfolio_rust",
+            "Technologies": [
+                "Yew.rs",
+                "Rust",
+                "Trunk",
+                "WASM"
+            ]
+        },
+        {
+            "Title": "WetaBot",
+            "Description": "Bot escrito en Python que pide mi comida a la oficina a través de la web de Wetaca empleando la libreria de scraping Selenium.",
+            "ghLink": "https://github.com/MSchere/WetaBot",
+            "Technologies": [
+                "Python 3",
+                "Selenium"
+            ]
+        },
+        {
             "Title": "Vega SDK",
             "Description": "SDK con funcionalidad LPUART personalizada para Vegaboard de OpenISA. Se utilizó para desarrollar el puerto en FreeRTOS de la ICU del EPD de Solar Orbiter de mi trabajo de fin de carrera.",
             "ghLink": "https://github.com/MSchere/Vega_sdk",
@@ -162,15 +200,6 @@
                 "C",
                 "Ada",
                 "TORCS"
-            ]
-        },
-        {
-            "Title": "Compilador",
-            "Description": "Proyecto universitario para la asignatura de Compiladores. Implementa un compilador para un lenguaje personalizado escrito en Java. Utiliza ANTLR para analizar el lenguaje y LLVM para generar el código.",
-            "ghLink": "https://github.com/MSchere/PL3Compiladores",
-            "Technologies": [
-                "Java",
-                "ANTLR"
             ]
         }
     ],
