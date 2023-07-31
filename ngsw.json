@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1687809096868,
+  "timestamp": 1690769911927,
   "index": "https://mschere.github.io/portfolio/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "https://mschere.github.io/portfolio/favicon.ico",
         "https://mschere.github.io/portfolio/index.html",
-        "https://mschere.github.io/portfolio/main.01fbbf191a48fe87.js",
+        "https://mschere.github.io/portfolio/main.0e802b491e50dd90.js",
         "https://mschere.github.io/portfolio/manifest.webmanifest",
         "https://mschere.github.io/portfolio/polyfills.76d478f5da1d22aa.js",
         "https://mschere.github.io/portfolio/runtime.8f372bb976a0d6c9.js",
         "https://mschere.github.io/portfolio/scripts.79dbe02e698e542d.js",
-        "https://mschere.github.io/portfolio/styles.adec513cd5290a98.css"
+        "https://mschere.github.io/portfolio/styles.7febf7641d3bec2d.css"
       ],
       "patterns": []
     },
@@ -213,8 +213,8 @@
     "https://mschere.github.io/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "https://mschere.github.io/portfolio/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "https://mschere.github.io/portfolio/assets/fonts/SFMono/stylesheet.css": "b6c8e6eb227dc3d0ae6b70b6a67930b190533453",
-    "https://mschere.github.io/portfolio/assets/i18n/en.json": "9d7586b13c5f475e74714e032b1cdf69df90586a",
-    "https://mschere.github.io/portfolio/assets/i18n/es.json": "5dde0df9c5f548f030f1b3740e373a470fa0613e",
+    "https://mschere.github.io/portfolio/assets/i18n/en.json": "6802623172ec77200266d5d5b7c1bb88379c7a7d",
+    "https://mschere.github.io/portfolio/assets/i18n/es.json": "f7d3ba1cbf2a7b05080e20f6a881acb4c19130c9",
     "https://mschere.github.io/portfolio/assets/icons/folder.svg": "9b70ce8877c8a727520999b7f6f4756cae8f13b1",
     "https://mschere.github.io/portfolio/assets/images/bbva.png": "7b19663121ee3afbd283961aa09951fe86f5c3fb",
     "https://mschere.github.io/portfolio/assets/images/ca.png": "199c51fa4a0d022a8602bac3f0ecdbc6e2abec9e",
@@ -242,14 +242,14 @@
     "https://mschere.github.io/portfolio/fa-solid-900.d5b0a3566b352ee9.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
     "https://mschere.github.io/portfolio/fa-solid-900.e67670b0779338ff.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "https://mschere.github.io/portfolio/favicon.ico": "76c745bf6101895d71ec5f5f3e4ed514bda2f3f1",
-    "https://mschere.github.io/portfolio/index.html": "3bf0be563a03de38f4ab80796e3d0f3d66a63702",
-    "https://mschere.github.io/portfolio/main.01fbbf191a48fe87.js": "7763f732163a6af64c6d0b36ecd9c11aafff91db",
+    "https://mschere.github.io/portfolio/index.html": "ffed1c3c12ba480fcb0b880dfc054589c7b7699d",
+    "https://mschere.github.io/portfolio/main.0e802b491e50dd90.js": "3f9119b82584d1a9a74fd2f5443ec73c2bb0f95c",
     "https://mschere.github.io/portfolio/manifest.webmanifest": "d72a611faaeb3877c4e91141d35331486d7d4e16",
     "https://mschere.github.io/portfolio/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://mschere.github.io/portfolio/polyfills.76d478f5da1d22aa.js": "b9a002bea6e0a4662e833f2026578bc9654cc185",
     "https://mschere.github.io/portfolio/runtime.8f372bb976a0d6c9.js": "6184ec1a8fd6c1816b6b11a65e80190e029ccabb",
     "https://mschere.github.io/portfolio/scripts.79dbe02e698e542d.js": "442455af48c5b8cc9c9095ff534a7e5350430371",
-    "https://mschere.github.io/portfolio/styles.adec513cd5290a98.css": "e6e201ac62e9b9be841ce0c87aa5769afb7ba113"
+    "https://mschere.github.io/portfolio/styles.7febf7641d3bec2d.css": "58b14e3c442481d05d6d9c078c1561d5a08b103a"
   },
   "navigationUrls": [
     {

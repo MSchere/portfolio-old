@@ -10,7 +10,7 @@
     "Banner.ActionBtn": "Envíame un email",
     "AboutMe.Title": "Acerca de mí",
     "AboutMe.Paragraphs": [
-        "Ser un <span class='underline'>desarrollador de blockchain</span> me obliga a estar contínuamente aprendiendo ya que la industria se mueve mucho más rápido que mi conocimiento sobre ella. Sin embargo, aprender es uno de mis mayores placeres, además de hacer ejercicio, jugar a videojuegos y pasar tiempo con familiares y amigos.",
+        "Ser un <span class='underline'>desarrollador de blockchain full stack</span> me obliga a estar contínuamente aprendiendo ya que la industria se mueve mucho más rápido que mi conocimiento sobre ella. Sin embargo, aprender es uno de mis mayores placeres, además de hacer ejercicio, jugar a videojuegos y pasar tiempo con familiares y amigos.",
         "También tengo experiencia en el desarrollo de sistemas financieros tradicionales para banca mayorista y scripts de reconciliación de datos.",
         "Me encanta trabajar con tecnologías nuevas y <span class='underline'>disruptivas</span> que tienen el poder de cambiar la forma en la que interactuamos con el dinero, las cosas y las personas.",
         "Algunas de las tecnologías que he empleado incluyen:"
@@ -19,7 +19,7 @@
     "Experience.Jobs": [
         {
             "Tab": "CriptoAvatars",
-            "Title": "Desarrollador Blockchain",
+            "Title": "Desarrollador Blockchain Full Stack",
             "Date": "Septiembre de 2022 - En curso",
             "Description": [
                 "Desarrollo del proyecto <span class='underline'>Virtual Persona</span>. Un mercado Web 3.0 donde cualquiera puede comprar o crear avatares tokenizados listos para <span class='underline'>blockchains compatibles con la EVM</span> y múltiples metaversos.",
@@ -200,6 +200,15 @@
                 "C",
                 "Ada",
                 "TORCS"
+            ]
+        },
+        {
+            "Title": "Compilador",
+            "Description": "Proyecto universitario para la asignatura de Compiladores. Implementa un compilador para un lenguaje personalizado escrito en Java. Utiliza ANTLR para analizar el lenguaje y LLVM para generar el código.",
+            "ghLink": "https://github.com/MSchere/PL3Compiladores",
+            "Technologies": [
+                "Java",
+                "ANTLR"
             ]
         }
     ],
