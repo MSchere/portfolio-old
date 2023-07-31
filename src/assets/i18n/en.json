@@ -10,7 +10,7 @@
     "Banner.ActionBtn": "Send me an email",
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "Being a <span class='underline'>blockchain developer</span> requires me to be a continuous learner as the space moves much quicker than my knowledge about it. However, I find learning as one of the biggest pleasures in my life along with doing exercise, playing videogames and spending time with my family and friends.",
+        "Being a <span class='underline'>full-stack blockchain developer</span> requires me to be a continuous learner as the space moves much quicker than my knowledge about it. However, I find learning as one of the biggest pleasures in my life along with doing exercise, playing videogames and spending time with my family and friends.",
         "I also have experience developing traditional finance systems for wholesale banking and data reconciliation scripts.",
         "I love working with new and <span class='underline'>disruptive technologies</span> that have the power to change how we interact with money, things and people.",
         "Some of the technologies that I have used include:"
@@ -19,7 +19,7 @@
     "Experience.Jobs": [
         {
             "Tab": "Polygonal Mind",
-            "Title": "Blockchain developer",
+            "Title": "Full-stack blockchain developer",
             "Date": "September 2022 - Ongoing",
             "Description": [
                 "Development of the <span class='underline'>Virtual Persona</span> project. A Web 3.0 marketplace buy, sell or create tokenized avatars ready for multiple metaverses and <span class='underline'>EVM-compatible blockchains</span>.",
@@ -200,6 +200,15 @@
                 "C",
                 "Ada",
                 "TORCS"
+            ]
+        },
+        {
+            "Title": "Compiler",
+            "Description": "University project for the Compilers class. Implements a compiler for a custom language written in Java. It uses ANTLR to parse the language and LLVM to generate the code.",
+            "ghLink": "https://github.com/MSchere/PL3Compiladores",
+            "Technologies": [
+                "Java",
+                "ANTLR"
             ]
         }
     ],
