@@ -10,7 +10,7 @@ Personal portfolio based on the work by [andresjosehr](https://github.com/andres
 
 Must have npm and Angular CLI installed. Npm is aviable with NodeJS in [here](https://nodejs.org/es/). After you install npm, install Angular CLI by typping the following command in your terminal
 
-``` bash
+```bash
 npm install -g @angular/cli
 ```
 
@@ -18,16 +18,18 @@ npm install -g @angular/cli
 
 Just clone the repo and excecute the following command inside the project folder:
 
-``` bash
+```bash
 npm install
 ```
 
 ### Visualization
 
 Run
+
 ```
 ng serve
 ```
+
 Wait for compilation and go to [http://localhost:4200](http://localhost:4200)
 
 All done!

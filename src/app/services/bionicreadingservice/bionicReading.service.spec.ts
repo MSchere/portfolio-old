@@ -1,8 +1,8 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed } from "@angular/core/testing";
 
-import { BionicReadingService } from './bionicReading.service';
+import { BionicReadingService } from "./bionicReading.service";
 
-describe('LanguageService', () => {
+describe("LanguageService", () => {
   let service: BionicReadingService;
 
   beforeEach(() => {
@@ -10,7 +10,7 @@ describe('LanguageService', () => {
     service = TestBed.inject(BionicReadingService);
   });
 
-  it('should be created', () => {
+  it("should be created", () => {
     expect(service).toBeTruthy();
   });
 });
