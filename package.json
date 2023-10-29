@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy"
+    "deploy": "ng deploy --base-href=/portfolio/"
   },
   "private": true,
   "dependencies": {
