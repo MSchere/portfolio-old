@@ -1,16 +1,19 @@
-import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppRoutingModule } from "./app-routing.module";
-import { AppComponent } from "./app.component";
-import { HomeModule } from "./components/home/home.module";
-import { GeneralModule } from "./components/general/general.module";
+import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ServiceWorkerModule } from "@angular/service-worker";
-import { environment } from "../environments/environment";
-import { NgxGoogleAnalyticsModule } from "ngx-google-analytics";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
-import { HttpClient, HttpClientModule } from "@angular/common/http";
+import { NgxGoogleAnalyticsModule } from "ngx-google-analytics";
+import { environment } from "../environments/environment";
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { GeneralModule } from "./components/general/general.module";
+import { HomeModule } from "./components/home/home.module";
+
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 import {
   TranslateLoader,
   TranslateModule,
@@ -45,7 +48,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       },
     }),
   ],
-  providers: [TranslateService],
+  providers: [TranslateService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -28,7 +28,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest",
-              "src/.htaccess"
+              "src/.htaccess",
+              "src/404.html"
             ],
             "styles": [
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
