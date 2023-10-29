@@ -2,7 +2,8 @@ import { Location } from "@angular/common";
 import { Injectable } from "@angular/core";
 import { TranslateService } from "@ngx-translate/core";
 
-type Language = "en" | "es";
+const supportedLanguages = ["en", "es"] as const;
+type Language = typeof supportedLanguages[number];
 @Injectable({
   providedIn: "root",
 })
@@ -16,21 +17,26 @@ export class LanguageService {
   ) {}
 
   initLanguage() {
+    
+    const url = this.location.path();
+
+    let language = url.split("/")[1] as Language;
+
+    if (!supportedLanguages.includes(language)) {
+      language = "en";
+    }
+
     this.translateService.addLangs(["en", "es"]);
-    let language = navigator.language || (navigator as any).userLanguage;
-    language = language.split("-").includes("en") ? "es" : "en";
-    language = "en"; //force english as default
     this.translateService.setDefaultLang(language);
 
-    // Change the URL without navigate:
-    this.location.go(language);
+    this.location.go(`/${language}`);
 
     this.language = language;
   }
 
   changeLanguage(language: Language) {
     this.translateService.setDefaultLang(language);
-    this.location.go(language);
+    this.location.go(`/${language}`);
     this.language = language;
   }
 }

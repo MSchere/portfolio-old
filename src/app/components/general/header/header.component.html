@@ -169,10 +169,10 @@
         </div>
       </li>
     </ul>
-    <div class="menu-wrapper">
+    <div class="menu-wrapper" (click)="responsiveMenuVisible = !responsiveMenuVisible"
+    >
       <div
         [class.animate]="responsiveMenuVisible"
-        (click)="responsiveMenuVisible = !responsiveMenuVisible"
         class="hamburger-menu"
       ></div>
     </div>
@@ -196,7 +196,7 @@
                 )
               "
             >
-              <a (click)="scroll('about')">
+              <a (click)="scroll('about')" class="d-flex gap-2">
                 <span>01. </span> {{ "Header.Item1" | translate }}
               </a>
             </li>
@@ -209,7 +209,7 @@
                 )
               "
             >
-              <a (click)="scroll('jobs')">
+              <a (click)="scroll('jobs')" class="d-flex gap-2">
                 <span>02. </span> {{ "Header.Item2" | translate }}
               </a>
             </li>
@@ -222,7 +222,7 @@
                 )
               "
             >
-              <a (click)="scroll('projects')">
+              <a (click)="scroll('projects')" class="d-flex gap-2">
                 <span>03. </span> {{ "Header.Item3" | translate }}
               </a>
             </li>
@@ -235,7 +235,7 @@
                 )
               "
             >
-              <a (click)="scroll('projects')">
+              <a (click)="scroll('projects')" class="d-flex gap-2">
                 <span>04. </span> {{ "Header.Item4" | translate }}
               </a>
             </li>
@@ -246,33 +246,6 @@
             </li>
             <li>
               <div class="language-container">
-                <div
-                  (click)="changeLanguage('es')"
-                  style="
-                    border-bottom-left-radius: 0px !important;
-                    border-bottom-right-radius: 0px !important;
-                  "
-                  class="language-container language-container-selector active"
-                  [class.active]="languageFormControl.value == 'es'"
-                >
-                  <img
-                    src="https://www.worldometers.info/img/flags/sp-flag.gif"
-                    alt="Español"
-                  />
-                  <span class="flag-text">Español</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-check2 arrow-active"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
-                    />
-                  </svg>
-                </div>
                 <div
                   (click)="changeLanguage('en')"
                   style="
@@ -288,6 +261,33 @@
                     alt="English"
                   />
                   <span class="flag-text">English</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check2 arrow-active"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  (click)="changeLanguage('es')"
+                  style="
+                    border-bottom-left-radius: 0px !important;
+                    border-bottom-right-radius: 0px !important;
+                  "
+                  class="language-container language-container-selector active"
+                  [class.active]="languageFormControl.value == 'es'"
+                >
+                  <img
+                    src="https://www.worldometers.info/img/flags/sp-flag.gif"
+                    alt="Español"
+                  />
+                  <span class="flag-text">Español</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"

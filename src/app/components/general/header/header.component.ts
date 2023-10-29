@@ -70,12 +70,11 @@ export class HeaderComponent implements OnInit {
       .get("Header.cvName")
       .subscribe((val) => {
         this.cvName = val;
-        console.log(val);
         // app url
-        let url = window.location.href;
-
+        let url = window.location.origin;
+        const cvUrl = `${url}/../assets/cv/${this.cvName}`;
         // Open a new window with the CV
-        window.open(url + "/../assets/cv/" + this.cvName, "_blank");
+        window.open(cvUrl, "_blank");
       });
   }
 
