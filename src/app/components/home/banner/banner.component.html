@@ -10,21 +10,12 @@
           <h3>Full Stack Blockchain Dev</h3>
         </div>
         <div class="banner-description">
-          <p
-            [innerHTML]="toBionicReading('Banner.Description' | translate)"
-            class="mt-4"
-          ></p>
+          <p [innerHTML]="toBionicReading('Banner.Description' | translate)" class="mt-4"></p>
         </div>
       </div>
       <div class="div-btn-banner">
         <a
-          (click)="
-            analyticsService.sendAnalyticEvent(
-              'click_send_mail',
-              'banner',
-              'email'
-            )
-          "
+          (click)="analyticsService.sendAnalyticEvent('click_send_mail', 'banner', 'email')"
           href="mailto:manu_schere@proton.me"
           target="_black"
           class="main-btn"

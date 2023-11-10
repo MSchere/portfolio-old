@@ -10,11 +10,11 @@ import { AnalyticsService } from "src/app/services/analytics/analytics.service";
 export class MoreProjectsComponent implements OnInit {
   constructor(
     private router: Router,
-    public analyticsService: AnalyticsService,
+    public analyticsService: AnalyticsService
   ) {}
 
   ngOnInit() {
-  this.router.events.subscribe((evt) => {
+    this.router.events.subscribe((evt) => {
       if (!(evt instanceof NavigationEnd)) {
         return;
       }
@@ -22,7 +22,7 @@ export class MoreProjectsComponent implements OnInit {
     });
   }
 
-  redirect(route: string, event: { target: { id: string }}) {
+  redirect(route: string, event: { target: { id: string } }) {
     const id = event.target.id;
     if (id == "demoLink" || id == "ghLink") {
       return;

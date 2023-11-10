@@ -12,8 +12,7 @@ export class BionicReadingService {
     const words = paragraph.split(" ");
     const bionicWords = words.map((word) => {
       if (hasMatchedWords) {
-        for (const matchedWord of matchedWords)
-          if (matchedWord.includes(word) && word.length > 3) return word;
+        for (const matchedWord of matchedWords) if (matchedWord.includes(word) && word.length > 3) return word;
       }
       const highlightLength = Math.ceil(word.length * 0.4);
       const highlightedPart = word.slice(0, highlightLength);

@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   constructor(
     private titleService: Title,
     private metaService: Meta,
-    private languageService: LanguageService,
+    private languageService: LanguageService
   ) {}
   ngOnInit(): void {
     this.languageService.initLanguage();

@@ -70,15 +70,7 @@
       "Description": "Un marketplace Web 3.0 donde comprar o vender avatares tokenizados listos para múltiples metaversos y blockchains compatibles con la EVM.",
       "demoLink": "https://vipe.io",
       "imgs": ["assets/images/vipe.png"],
-      "Technologies": [
-        "Solidity",
-        "Angular",
-        "SCSS",
-        "Nest.js",
-        "Ethers.js",
-        "MongoDB",
-        "Redis"
-      ]
+      "Technologies": ["Solidity", "Angular", "SCSS", "Nest.js", "Ethers.js", "MongoDB", "Redis"]
     },
     {
       "Title": "Gastroo",
@@ -93,15 +85,7 @@
       "Description": "Toolset online para crear avatares 3D interoperables y tokenizarlos como NFTs.",
       "demoLink": "https://cryptoavatars.io",
       "imgs": ["assets/images/ca.png"],
-      "Technologies": [
-        "Solidity",
-        "Angular",
-        "SCSS",
-        "Nest.js",
-        "Ethers.js",
-        "MongoDB",
-        "Redis"
-      ]
+      "Technologies": ["Solidity", "Angular", "SCSS", "Nest.js", "Ethers.js", "MongoDB", "Redis"]
     },
     {
       "Title": "ViBite",
@@ -137,13 +121,7 @@
       "Title": "Halo Weapons NFT",
       "Description": "Un proyecto de demostración sencillo en el que un usuario puede crear NFTs compatibles con Opensea con modelos 3D de armas de Halo integrados en ellos.",
       "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT",
-      "Technologies": [
-        "Solidity",
-        "Angular",
-        "SCSS",
-        "ethers.js",
-        "Model Viewer"
-      ]
+      "Technologies": ["Solidity", "Angular", "SCSS", "ethers.js", "Model Viewer"]
     },
     {
       "Title": "WetaBot",

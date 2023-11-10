@@ -3,21 +3,19 @@ import { Injectable } from "@angular/core";
 import { TranslateService } from "@ngx-translate/core";
 
 const supportedLanguages = ["en", "es"] as const;
-type Language = typeof supportedLanguages[number];
+type Language = (typeof supportedLanguages)[number];
 @Injectable({
   providedIn: "root",
 })
-
 export class LanguageService {
   language: Language = "en";
 
   constructor(
     public translateService: TranslateService,
-    private location: Location,
+    private location: Location
   ) {}
 
   initLanguage() {
-    
     const url = this.location.path();
 
     let language = url.split("/")[1] as Language;

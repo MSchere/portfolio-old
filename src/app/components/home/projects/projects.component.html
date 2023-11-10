@@ -9,45 +9,24 @@
       </div>
 
       <div
-        *ngFor="
-          let project of 'FeatureProjects.Projects' | translate;
-          let i = index
-        "
+        *ngFor="let project of 'FeatureProjects.Projects' | translate; let i = index"
         class="d-flex project-container"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <owl-carousel-o
-          class="owl-carousel-o"
-          [options]="customOptions"
-          *ngIf="i % 2 == 0"
-        >
+        <owl-carousel-o class="owl-carousel-o" [options]="customOptions" *ngIf="i % 2 == 0">
           <ng-container *ngFor="let img of project.imgs">
             <ng-template carouselSlide [id]="project.Title + slide + i">
               <div #imgContainer class="img-container">
-                <img
-                  class="img-feature-project rounded"
-                  [src]="img"
-                  [alt]="project.Title"
-                />
+                <img class="img-feature-project rounded" [src]="img" [alt]="project.Title" />
               </div>
             </ng-template>
           </ng-container>
         </owl-carousel-o>
-        <div
-          class="img-feature-project-container"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          *ngIf="i % 2 == 0"
-        >
+        <div class="img-feature-project-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i % 2 == 0">
           <div class="img-feature-project-box">
             <div class="img-container" style="width: auto">
-              <img
-                class="img-feature-project rounded"
-                [src]="project.imgs[0]"
-                [alt]="project.imgs[0]"
-                width="600px"
-              />
+              <img class="img-feature-project rounded" [src]="project.imgs[0]" [alt]="project.imgs[0]" width="600px" />
             </div>
           </div>
         </div>
@@ -58,18 +37,10 @@
           style="background-image: url('{{ project.img }}');"
         >
           <div class="project-box">
-            <h4
-              [class.text-right]="i % 2 == 0"
-              [class.text-left]="i % 2 != 0"
-              class="feature-project"
-            >
+            <h4 [class.text-right]="i % 2 == 0" [class.text-left]="i % 2 != 0" class="feature-project">
               {{ "FeatureProjects.Label" | translate }}
             </h4>
-            <h5
-              [class.text-right]="i % 2 == 0"
-              [class.text-left]="i % 2 != 0"
-              class="project-name"
-            >
+            <h5 [class.text-right]="i % 2 == 0" [class.text-left]="i % 2 != 0" class="project-name">
               {{ project.Title }}
             </h5>
 
@@ -85,59 +56,29 @@
                 <span class="underline technology">{{ technology }}</span>
               </li>
             </ul>
-            <div
-              [class.text-right]="i % 2 == 0"
-              [class.text-left]="i % 2 != 0"
-              class="project-links"
-            >
-              <a
-                *ngIf="project['ghLink']"
-                style="color: inherit"
-                [href]="project['ghLink']"
-                target="_blank"
+            <div [class.text-right]="i % 2 == 0" [class.text-left]="i % 2 != 0" class="project-links">
+              <a *ngIf="project['ghLink']" style="color: inherit" [href]="project['ghLink']" target="_blank"
                 ><i class="ml-3 fab fa-github"></i
               ></a>
-              <a
-                *ngIf="project['demoLink']"
-                style="color: inherit"
-                [href]="project['demoLink']"
-                target="_blank"
+              <a *ngIf="project['demoLink']" style="color: inherit" [href]="project['demoLink']" target="_blank"
                 ><i class="ml-3 fas fa-external-link-alt"></i
               ></a>
             </div>
           </div>
         </div>
-        <owl-carousel-o
-          class="owl-carousel-o"
-          [options]="customOptions"
-          *ngIf="i % 2 != 0"
-        >
+        <owl-carousel-o class="owl-carousel-o" [options]="customOptions" *ngIf="i % 2 != 0">
           <ng-container *ngFor="let img of project.imgs">
             <ng-template carouselSlide [id]="project.Title + slide + i">
               <div class="img-container">
-                <img
-                  class="img-feature-project rounded"
-                  [src]="img"
-                  [alt]="project.Title"
-                />
+                <img class="img-feature-project rounded" [src]="img" [alt]="project.Title" />
               </div>
             </ng-template>
           </ng-container>
         </owl-carousel-o>
-        <div
-          class="img-feature-project-container"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          *ngIf="i % 2 != 0"
-        >
+        <div class="img-feature-project-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i % 2 != 0">
           <div class="img-feature-project-box">
             <div class="img-container" style="width: auto">
-              <img
-                class="img-feature-project rounded"
-                [src]="project.imgs[0]"
-                [alt]="project.imgs[0]"
-                width="600px"
-              />
+              <img class="img-feature-project rounded" [src]="project.imgs[0]" [alt]="project.imgs[0]" width="600px" />
             </div>
           </div>
         </div>

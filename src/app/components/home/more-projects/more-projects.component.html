@@ -10,10 +10,7 @@
       <div class="mt-5">
         <div class="row p-0">
           <div
-            *ngFor="
-              let project of 'OtherProjects.Projects' | translate;
-              let i = index
-            "
+            *ngFor="let project of 'OtherProjects.Projects' | translate; let i = index"
             (click)="redirect(project['demoLink'], $event)"
             class="col-12 col-md-6 col-lg-6 col-xl-4 project-col"
             data-aos="fade-up"
@@ -26,26 +23,14 @@
                 </div>
                 <div class="col-6 d-flex p-0 justify-content-end">
                   <a
-                    (click)="
-                      analyticsService.sendAnalyticEvent(
-                        'click_pokemonlist_external_link',
-                        'projects',
-                        'click'
-                      )
-                    "
+                    (click)="analyticsService.sendAnalyticEvent('click_pokemonlist_external_link', 'projects', 'click')"
                     style="color: inherit"
                     [href]="project['demoLink']"
                     target="_blank"
                     ><i id="demoLink" class="ml-3 fas fa-external-link-alt"></i
                   ></a>
                   <a
-                    (click)="
-                      analyticsService.sendAnalyticEvent(
-                        'click_pokemonlist_github',
-                        'projects',
-                        'click'
-                      )
-                    "
+                    (click)="analyticsService.sendAnalyticEvent('click_pokemonlist_github', 'projects', 'click')"
                     style="color: inherit"
                     [href]="project['ghLink']"
                     target="_blank"

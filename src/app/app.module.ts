@@ -12,13 +12,9 @@ import { AppComponent } from "./app.component";
 import { GeneralModule } from "./components/general/general.module";
 import { HomeModule } from "./components/home/home.module";
 
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 
-import {
-  TranslateLoader,
-  TranslateModule,
-  TranslateService,
-} from "@ngx-translate/core";
+import { TranslateLoader, TranslateModule, TranslateService } from "@ngx-translate/core";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
@@ -48,7 +44,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       },
     }),
   ],
-  providers: [TranslateService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [TranslateService, { provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
