@@ -6,11 +6,11 @@
   "Header.cvBtn": "Currículum",
   "Header.cvName": "Europass_ES.pdf",
   "Banner.Pretitle": "¡Hola mundo! Mi nombre es",
-  "Banner.Description": "Estoy trabajando en el desarrollo de productos de alta calidad en la <span class='underline'>Web 3.0</span> y <span class='underline'>El Metaverso</span>. Tengo ganas de poder llevar estas nuevas y emocionantes tecnologías a millones de personas y, con suerte, poder mejorar sus vidas de una u otra forma.",
+  "Banner.Description": "Soy un ingeniero de computadores cypherpunk apasionado por <span class='underline'>blockchain</span> y el <span class='underline'>desarrollo web</span>. Estoy construyendo soluciones increíbles que intentan mejorar un mundo que cambia rápidamente.",
   "Banner.ActionBtn": "Envíame un email",
   "AboutMe.Title": "Acerca de mí",
   "AboutMe.Paragraphs": [
-    "Ser un <span class='underline'>desarrollador de blockchain full stack</span> me obliga a estar contínuamente aprendiendo ya que la industria se mueve mucho más rápido que mi conocimiento sobre ella. Sin embargo, aprender es uno de mis mayores placeres, además de hacer ejercicio, jugar a videojuegos y pasar tiempo con familiares y amigos.",
+    "Ser un <span class='underline'>desarrollador de blockchain full stack</span> me obliga a estar contínuamente aprendiendo ya que la industria se mueve mucho más rápido que mi conocimiento sobre ella. Sin embargo, aprender es uno de mis mayores placeres, además ir al gimnasio, jugar a videojuegos, ir de rave y pasar tiempo con familiares y amigos.",
     "También tengo experiencia en el desarrollo de sistemas financieros tradicionales para banca mayorista y scripts de reconciliación de datos.",
     "Me encanta trabajar con tecnologías nuevas y <span class='underline'>disruptivas</span> que tienen el poder de cambiar la forma en la que interactuamos con el dinero, las cosas y las personas.",
     "Algunas de las tecnologías que he empleado incluyen:"
@@ -69,44 +69,92 @@
       "Title": "Virtual Persona",
       "Description": "Un marketplace Web 3.0 donde comprar o vender avatares tokenizados listos para múltiples metaversos y blockchains compatibles con la EVM.",
       "demoLink": "https://vipe.io",
-      "imgs": ["assets/images/vipe.png"],
-      "Technologies": ["Solidity", "Angular", "SCSS", "Nest.js", "Ethers.js", "MongoDB", "Redis"]
+      "imgs": [
+        "assets/images/vipe.png"
+      ],
+      "Technologies": [
+        "Solidity",
+        "Angular",
+        "SCSS",
+        "Nest.js",
+        "Ethers.js",
+        "MongoDB",
+        "Redis"
+      ]
     },
     {
       "Title": "Gastroo",
       "Description": "Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFTs con sus recetas integradas en ellos.",
-      "imgs": ["assets/images/gastroo.png"],
+      "imgs": [
+        "assets/images/gastroo.png"
+      ],
       "ghLink": "https://github.com/MSchere/gastroo_dapp",
       "demoLink": "http://gastroo.es",
-      "Technologies": ["Solidity", "React", "Moralis", "SCSS", "Web3.js"]
+      "Technologies": [
+        "Solidity",
+        "React",
+        "Moralis",
+        "SCSS",
+        "Web3.js"
+      ]
     },
     {
       "Title": "CryptoAvatars",
       "Description": "Toolset online para crear avatares 3D interoperables y tokenizarlos como NFTs.",
       "demoLink": "https://cryptoavatars.io",
-      "imgs": ["assets/images/ca.png"],
-      "Technologies": ["Solidity", "Angular", "SCSS", "Nest.js", "Ethers.js", "MongoDB", "Redis"]
+      "imgs": [
+        "assets/images/ca.png"
+      ],
+      "Technologies": [
+        "Solidity",
+        "Angular",
+        "SCSS",
+        "Nest.js",
+        "Ethers.js",
+        "MongoDB",
+        "Redis"
+      ]
     },
     {
       "Title": "ViBite",
-      "Description": "Agregador de plataformas de entrega de comida a domicilio.",
+      "Description": "Agregador de plataformas de entrega de comida a domicilio creado con Svelte y Firebase.",
       "demoLink": "https://vibite-3ab78.web.app/dishes",
       "ghLink": "https://github.com/MSchere/vibite_web",
-      "imgs": ["assets/images/vibite.png"],
-      "Technologies": ["SvelteKit", "Typescript", "SCSS", "Firebase"]
+      "imgs": [
+        "assets/images/vibite.png"
+      ],
+      "Technologies": [
+        "SvelteKit",
+        "Typescript",
+        "SCSS",
+        "Firebase"
+      ]
     },
     {
       "Title": "Conciliación Riesgos BBVA",
       "Description": "Herramienta interna empleada por BBVA para detectar y estudiar discrepancias entre los importes operativos entre los sistemas de front y back office.",
-      "imgs": ["assets/images/bbva.png"],
-      "Technologies": ["Python", "Pandas", "Streamlit", "Anaconda"]
+      "imgs": [
+        "assets/images/bbva.png"
+      ],
+      "Technologies": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Anaconda"
+      ]
     },
     {
       "Title": "InstantEat",
       "Description": "Aplicación Android que permite a los usuarios pedir comida de varios restaurantes, pagar con varios métodos de pago y realizar un seguimiento de su pedido en tiempo real. Estaba enfocado a demostrar el uso de distintos patrones de diseño.",
-      "imgs": ["assets/images/instant_eat.png"],
+      "imgs": [
+        "assets/images/instant_eat.png"
+      ],
       "ghLink": "https://github.com/MSchere/instantEat",
-      "Technologies": ["Android Studio", "Java", "SQLite"]
+      "Technologies": [
+        "Android Studio",
+        "Java",
+        "SQLite"
+      ]
     }
   ],
   "OtherProjects.Title": "Otros Proyectos",
@@ -115,37 +163,67 @@
       "Title": "Rust Portfolio",
       "Description": "Portfolio personal desarrollado en Rust con el framework Yew.rs. Se trata de un proyecto de demo que me ayudó a aprender Rust y a familiarizarme con el desarrollo de aplicaciones WebAssembly.",
       "ghLink": "https://github.com/MSchere/portfolio_rust",
-      "Technologies": ["Yew.rs", "Rust", "Trunk", "WASM"]
+      "Technologies": [
+        "Yew.rs",
+        "Rust",
+        "Trunk",
+        "WASM"
+      ]
     },
     {
       "Title": "Halo Weapons NFT",
       "Description": "Un proyecto de demostración sencillo en el que un usuario puede crear NFTs compatibles con Opensea con modelos 3D de armas de Halo integrados en ellos.",
       "ghLink": "https://github.com/MSchere/Halo_Weapons_NFT",
-      "Technologies": ["Solidity", "Angular", "SCSS", "ethers.js", "Model Viewer"]
+      "Technologies": [
+        "Solidity",
+        "Angular",
+        "SCSS",
+        "ethers.js",
+        "Model Viewer"
+      ]
     },
     {
-      "Title": "WetaBot",
-      "Description": "Bot escrito en Python que se encarga de pedir mi menu semanal a través de la web de Wetaca empleando la libreria de scraping Selenium.",
-      "ghLink": "https://github.com/MSchere/WetaBot",
-      "Technologies": ["Python 3", "Selenium"]
+      "Title": "Algo Address Tracker",
+      "Description": "Aplicación web que permite seguir el balance de una dirección de Algorand en tiempo real.",
+      "ghLink": "https://github.com/MSchere/algo_address_tracker",
+      "Technologies": [
+        "Next.js",
+        "TailwindCSS",
+        "AlgoNode",
+        "Websockets",
+        "Vercel"
+      ]
     },
     {
       "Title": "Vega SDK",
       "Description": "SDK con funcionalidad LPUART personalizada para Vegaboard de OpenISA. Se utilizó para desarrollar el puerto en FreeRTOS de la ICU del EPD de Solar Orbiter de mi trabajo de fin de carrera.",
       "ghLink": "https://github.com/MSchere/Vega_sdk",
-      "Technologies": ["C", "RISC-V", "Eclipse", "Unix"]
+      "Technologies": [
+        "C",
+        "RISC-V",
+        "Eclipse",
+        "Unix"
+      ]
     },
     {
       "Title": "PID para coche autónomo",
       "Description": "Proyecto universitario para la asignatura de Sistemas de Tiempo Real. Implementa un controlador PID escrito en ADA que hace que un automovil conduzca autónomamente en el simulador TORCS.",
       "ghLink": "https://github.com/MSchere/SelfDrivingCar",
-      "Technologies": ["C++", "C", "Ada", "TORCS"]
+      "Technologies": [
+        "C++",
+        "C",
+        "Ada",
+        "TORCS"
+      ]
     },
     {
       "Title": "Compilador",
       "Description": "Proyecto universitario para la asignatura de Compiladores. Implementa un compilador para un lenguaje personalizado escrito en Java. Utiliza ANTLR para analizar el lenguaje y LLVM para generar el código.",
       "ghLink": "https://github.com/MSchere/PL3Compiladores",
-      "Technologies": ["Java", "ANTLR"]
+      "Technologies": [
+        "Java",
+        "ANTLR"
+      ]
     }
   ],
   "Contact.Pretitle": "Qué sigue",
