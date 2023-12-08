@@ -6,11 +6,11 @@
   "Header.cvBtn": "Resume",
   "Header.cvName": "Europass_EN.pdf",
   "Banner.Pretitle": "Hello world! My name is",
-  "Banner.Description": "I'm working on building high quality products on <span class='underline'>Web 3.0</span> and <span class='underline'>The Metaverse</span>. I'm hoping to be able to bring these new and exciting technologies to millions of people and hopefully be able to improve their lives in some way or another.",
+  "Banner.Description": "I'm a cypherpunk computer engineer passionate about <span class='underline'>blockchain</span> and <span class='underline'>web development</span>. I'm building amazing solutions that try to improve this fast changing world.",
   "Banner.ActionBtn": "Send me an email",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "Being a <span class='underline'>full-stack blockchain developer</span> requires me to be a continuous learner as the space moves much quicker than my knowledge about it. However, I find learning as one of the biggest pleasures in my life along with doing exercise, playing videogames and spending time with my family and friends.",
+    "Being a <span class='underline'>full-stack blockchain developer</span> requires me to be a continuous learner as the space moves much quicker than my knowledge about it. However, I find learning as one of the biggest pleasures in my life along with going to the gym, playing videogames, raving and spending time with my family and friends.",
     "I also have experience developing traditional finance systems for wholesale banking and data reconciliation scripts.",
     "I love working with new and <span class='underline'>disruptive technologies</span> that have the power to change how we interact with money, things and people.",
     "Some of the technologies that I have used include:"
@@ -69,7 +69,9 @@
       "Title": "Virtual Persona",
       "Description": "Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses and EVM-compatible blockchains.",
       "demoLink": "https://vipe.io",
-      "imgs": ["assets/images/vipe.png"],
+      "imgs": [
+        "assets/images/vipe.png"
+      ],
       "Technologies": [
         "Solidity",
         "Angular",
@@ -83,16 +85,26 @@
     {
       "Title": "Gastroo",
       "Description": "Web 3.0 Dapp that allows foodies to monetize their culinary contents by creating NFTs with their recipes embedded into them.",
-      "imgs": ["assets/images/gastroo.png"],
+      "imgs": [
+        "assets/images/gastroo.png"
+      ],
       "ghLink": "https://github.com/MSchere/gastroo_dapp",
       "demoLink": "http://gastroo.es",
-      "Technologies": ["Solidity", "React", "Moralis", "SCSS", "Web3.js"]
+      "Technologies": [
+        "Solidity",
+        "React",
+        "Moralis",
+        "SCSS",
+        "Web3.js"
+      ]
     },
     {
       "Title": "CryptoAvatars",
       "Description": "Online toolset for tokenized & interoperable avatar creation.",
       "demoLink": "https://cryptoavatars.io",
-      "imgs": ["assets/images/ca.png"],
+      "imgs": [
+        "assets/images/ca.png"
+      ],
       "Technologies": [
         "Solidity",
         "Angular",
@@ -105,24 +117,44 @@
     },
     {
       "Title": "ViBite",
-      "Description": "Online food delivery service platform aggregator.",
+      "Description": "Online food delivery service platform aggregator built using SvelteKit & Firebase.",
       "demoLink": "https://vibite-3ab78.web.app/dishes",
       "ghLink": "https://github.com/MSchere/vibite_web",
-      "imgs": ["assets/images/vibite.png"],
-      "Technologies": ["SvelteKit", "Typescript", "SCSS", "Firebase"]
+      "imgs": [
+        "assets/images/vibite.png"
+      ],
+      "Technologies": [
+        "SvelteKit",
+        "Typescript",
+        "SCSS",
+        "Firebase"
+      ]
     },
     {
       "Title": "BBVA Risks Reconciliation",
       "Description": "Internal tool used by BBVA to detect and study discrepancies in operational imports between front and back office systems.",
-      "imgs": ["assets/images/bbva.png"],
-      "Technologies": ["Python", "Pandas", "Streamlit", "Anaconda"]
+      "imgs": [
+        "assets/images/bbva.png"
+      ],
+      "Technologies": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Anaconda"
+      ]
     },
     {
       "Title": "InstantEat",
-      "Description": "Sample Android app that allows users to order food from various restaurants, pay using various payment methods and track their order in real time. It was meant to demonstrate the use of different design patterns.",
-      "imgs": ["assets/images/instant_eat.png"],
+      "Description": "Simple Android app that allows users to order food from various restaurants, pay using various payment methods and track their order in real time. It was meant to demonstrate the use of different design patterns.",
+      "imgs": [
+        "assets/images/instant_eat.png"
+      ],
       "ghLink": "https://github.com/MSchere/instantEat",
-      "Technologies": ["Android Studio", "Java", "SQLite"]
+      "Technologies": [
+        "Android Studio",
+        "Java",
+        "SQLite"
+      ]
     }
   ],
   "OtherProjects.Title": "More projects",
@@ -131,7 +163,12 @@
       "Title": "Rust Portfolio",
       "Description": "This same site but built in Rust using the Yew.rs framework. This was meant to be a sample demo project for me to better understand Rust's WebAssembly capabilities.",
       "ghLink": "https://github.com/MSchere/portfolio_rust",
-      "Technologies": ["Yew.rs", "Rust", "Trunk", "WASM"]
+      "Technologies": [
+        "Yew.rs",
+        "Rust",
+        "Trunk",
+        "WASM"
+      ]
     },
     {
       "Title": "Halo Weapons NFT",
@@ -146,28 +183,47 @@
       ]
     },
     {
-      "Title": "WetaBot",
-      "Description": "Python bot that automatically orders my weekly menu from the Wetaca food service using the Selenium scraping library.",
-      "ghLink": "https://github.com/MSchere/WetaBot",
-      "Technologies": ["Python 3", "Selenium"]
+      "Title": "Algo Address Tracker",
+      "Description": "Real-time monitoring dashboard for Algorand account balances.",
+      "ghLink": "https://github.com/MSchere/algo_address_tracker",
+      "Technologies": [
+        "Next.js",
+        "TailwindCSS",
+        "AlgoNode",
+        "Websockets",
+        "Vercel"
+      ]
     },
     {
       "Title": "Vega SDK",
       "Description": "SDK with custom LPUART functionality for the OpenISA Vegaboard. Used to develop the Solar Orbiter FreeRTOS EPD ICU port from my final degree project.",
       "ghLink": "https://github.com/MSchere/Vega_sdk",
-      "Technologies": ["C", "RISC-V", "Eclipse", "Unix"]
+      "Technologies": [
+        "C",
+        "RISC-V",
+        "Eclipse",
+        "Unix"
+      ]
     },
     {
       "Title": "Self Driving Car PID",
       "Description": "University project for the Real Time Systems class. Implements a PID controller written in ADA that makes a car drive itself in the TORCS simulator.",
       "ghLink": "https://github.com/MSchere/SelfDrivingCar",
-      "Technologies": ["C++", "C", "Ada", "TORCS"]
+      "Technologies": [
+        "C++",
+        "C",
+        "Ada",
+        "TORCS"
+      ]
     },
     {
       "Title": "Compiler",
       "Description": "University project for the Compilers class. Implements a compiler for a custom language written in Java. It uses ANTLR to parse the language and LLVM to generate the code.",
       "ghLink": "https://github.com/MSchere/PL3Compiladores",
-      "Technologies": ["Java", "ANTLR"]
+      "Technologies": [
+        "Java",
+        "ANTLR"
+      ]
     }
   ],
   "Contact.Pretitle": "What's Next",
