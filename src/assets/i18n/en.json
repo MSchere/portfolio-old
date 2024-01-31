@@ -10,7 +10,7 @@
   "Banner.ActionBtn": "Send me an email",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "Being a <span class='underline'>full-stack blockchain developer</span> requires me to be a continuous learner as the space moves much quicker than my knowledge about it. However, I find learning as one of the biggest pleasures in my life along with going to the gym, playing videogames, raving and spending time with my family and friends.",
+    "Being a <span class='underline'>full-stack blockchain developer</span> requires me to be a continuous learner as the space moves much quicker than my knowledge about it. However, I find learning as one of the biggest pleasures in my life along with going to the gym, playing videogames, raving and spending time with family and friends.",
     "I also have experience developing traditional finance systems for wholesale banking and data reconciliation scripts.",
     "I love working with new and <span class='underline'>disruptive technologies</span> that have the power to change how we interact with money, things and people.",
     "Some of the technologies that I have used include:"
@@ -18,15 +18,25 @@
   "Experience.Title": "Studies & Experience",
   "Experience.Jobs": [
     {
+      "Tab": "Byron Labs",
+      "Title": "Senior Full-Stack developer",
+      "Date": "January 2024 - Ongoing",
+      "Description": [
+        "Development of the <span class='underline'>Vysion</span> platform. A cyberintelligence platform that allows users to monitor and analyze the <span class='underline'>dark web</span> for threats to their organization.",
+        "Working in a small 5 person <span class='underline'>remote team</span>.",
+        "Typescript, Next.js, Python, FastApi, Selenium, Elasticsearch, AWS, Docker"
+      ]
+    },
+    {
       "Tab": "Polygonal Mind",
-      "Title": "Full-stack blockchain developer",
-      "Date": "September 2022 - Ongoing",
+      "Title": "Full-Stack blockchain developer",
+      "Date": "September 2022 - January 2024",
       "Description": [
         "Development of the <span class='underline'>Virtual Persona</span> project. A Web 3.0 marketplace buy, sell or create tokenized avatars ready for multiple metaverses and <span class='underline'>EVM-compatible blockchains</span>.",
         "Development of the CA-Marketplace <span class='underline'>smart contract</span>, integration of frontend and backend systems with the supported chains.",
         "Development of Web3 projects for <span class='underline'>external clients</span> such as <span class='underline'>NFT</span> collections and <span class='underline'>DAOs</span>.",
         "Working in a 10 person <span class='underline'>Scrum team</span>.",
-        "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask."
+        "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Next.js"
       ]
     },
     {
@@ -65,6 +75,22 @@
   "FeatureProjects.Title": "My projects",
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
+    {
+      "Title": "Vysion",
+      "Description": "Cyberintelligence platform that allows users to monitor and analyze the dark web for threats to their organization.",
+      "demoLink": "https://vysion.ai",
+      "imgs": [
+        "assets/images/vysion.png"
+      ],
+      "Technologies": [
+        "Typescript",
+        "Next.js",
+        "Python",
+        "FastApi",
+        "Selenium",
+        "Elasticsearch"
+      ]
+    },
     {
       "Title": "Virtual Persona",
       "Description": "Web 3.0 marketplace where anyone can buy tokenized avatars ready for multiple metaverses and EVM-compatible blockchains.",

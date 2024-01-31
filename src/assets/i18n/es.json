@@ -18,15 +18,25 @@
   "Experience.Title": "Estudios y Experiencia",
   "Experience.Jobs": [
     {
-      "Tab": "CriptoAvatars",
+      "Tab": "Byron Labs",
+      "Title": "Desarrollador Senior Full Stack",
+      "Date": "enero de 2024 - En Curso",
+      "Description": [
+        "Desarrollo de la plataforma <span class='underline'>Vysion</span>. Una plataforma de ciberinteligencia que permite a los usuarios monitorear y analizar la <span class='underline'>dark web</span> en busca de amenazas a su organización. ",
+        "Trabajando en un pequeño <span class='underline'>equipo remoto</span> de 5 personas.",
+        "Typescript, Next.js, Python, FastApi, Selenium, Elasticsearch, AWS, Docker"
+      ]
+    },
+    {
+      "Tab": "Polygonal Mind",
       "Title": "Desarrollador Blockchain Full Stack",
-      "Date": "Septiembre de 2022 - En curso",
+      "Date": "septiembre de 2022 - enero de 2024",
       "Description": [
         "Desarrollo del proyecto <span class='underline'>Virtual Persona</span>. Un mercado Web 3.0 donde cualquiera puede comprar o crear avatares tokenizados listos para <span class='underline'>blockchains compatibles con la EVM</span> y múltiples metaversos.",
         "Desarrollo del <span class='underline'>smart contract</span> CA-Marketplace, integración de sistemas frontend y backend con las cadenas soportadas.",
         "Desarrollo de proyectos Web3 para <span class='underline'>clientes externos</span> como colecciones <span class='underline'>NFT</span> y <span class='underline'>DAOs</span> .",
         "Trabajo en un <span class='underline'>equipo Scrum</span> de 10 personas",
-        "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Metamask"
+        "Hardhat, Solidity, Typescript, Ethers.js, Angular, Nest.js, OpenZeppelin, Next.js"
       ]
     },
     {
@@ -65,6 +75,22 @@
   "FeatureProjects.Title": "Mis Proyectos",
   "FeatureProjects.Label": "Proyecto Destacado",
   "FeatureProjects.Projects": [
+      {
+        "Title": "Vysion",
+        "Description": "Plataforma de ciberinteligencia que permite a los usuarios monitorear y analizar la web oscura en busca de amenazas a su organización.",
+        "demoLink": "https://vysion.ai",
+        "imgs": [
+          "assets/images/vysion.png"
+        ],
+        "Technologies": [
+          "Typescript",
+          "Next.js",
+          "Python",
+          "FastApi",
+          "Selenium",
+          "Elasticsearch"
+        ]
+      },
     {
       "Title": "Virtual Persona",
       "Description": "Un marketplace Web 3.0 donde comprar o vender avatares tokenizados listos para múltiples metaversos y blockchains compatibles con la EVM.",
