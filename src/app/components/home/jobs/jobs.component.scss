@@ -2,7 +2,7 @@
 
 ::ng-deep .jobs .jobs-tabs {
   display: flex;
-
+  min-height: 420px;
   .tab-content {
     margin-left: 38px;
   }
@@ -117,10 +117,12 @@
         content: none;
       }
     }
+    .nav-tabs {
+      min-height: 0px;
+    }
   }
   ::ng-deep .jobs-tabs {
     display: block !important;
-
     .tab-content {
       margin-left: 0px !important;
     }

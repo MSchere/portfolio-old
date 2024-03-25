@@ -22,9 +22,9 @@
       "Title": "Desarrollador Senior Full Stack",
       "Date": "enero de 2024 - En Curso",
       "Description": [
-        "Desarrollo de la plataforma <span class='underline'>Vysion</span>. Una plataforma de ciberinteligencia que permite a los usuarios monitorear y analizar la <span class='underline'>dark web</span> en busca de amenazas a su organización. ",
+        "Diseño y desarrollo de la plataforma <span class='underline'>Vysion</span>. Una plataforma de ciberinteligencia que permite a los usuarios monitorear y analizar la <span class='underline'>dark web</span> en busca de amenazas a su organización. ",
         "Trabajando en un pequeño <span class='underline'>equipo remoto</span> de 5 personas.",
-        "Typescript, Next.js, Python, FastApi, Selenium, Elasticsearch, AWS, Docker"
+        "Typescript, Next.js, Python, FastApi, Selenium, Elasticsearch, AWS, UI/UX"
       ]
     },
     {
@@ -91,6 +91,18 @@
           "Elasticsearch"
         ]
       },
+      {
+        "Title": "Forbes Legacy Pass",
+        "Description": "Landing page para la colección oficial de NFTs de Forbes, Legacy Pass.",
+        "demoLink": "https://forbes.com/legacy-pass",
+        "imgs": [
+          "assets/images/forbesnft.png"
+        ],
+        "Technologies": [
+          "Next.js",
+          "TailwindCSS"
+        ]
+      },
     {
       "Title": "Virtual Persona",
       "Description": "Un marketplace Web 3.0 donde comprar o vender avatares tokenizados listos para múltiples metaversos y blockchains compatibles con la EVM.",
@@ -106,22 +118,6 @@
         "Ethers.js",
         "MongoDB",
         "Redis"
-      ]
-    },
-    {
-      "Title": "Gastroo",
-      "Description": "Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFTs con sus recetas integradas en ellos.",
-      "imgs": [
-        "assets/images/gastroo.png"
-      ],
-      "ghLink": "https://github.com/MSchere/gastroo_dapp",
-      "demoLink": "http://gastroo.es",
-      "Technologies": [
-        "Solidity",
-        "React",
-        "Moralis",
-        "SCSS",
-        "Web3.js"
       ]
     },
     {
@@ -157,6 +153,22 @@
       ]
     },
     {
+      "Title": "Gastroo",
+      "Description": "Dapp Web 3.0 que permite a los amantes de la comida monetizar sus contenidos culinarios mediante la creación de NFTs con sus recetas integradas en ellos.",
+      "imgs": [
+        "assets/images/gastroo.png"
+      ],
+      "ghLink": "https://github.com/MSchere/gastroo_dapp",
+      "demoLink": "http://gastroo.es",
+      "Technologies": [
+        "Solidity",
+        "React",
+        "Moralis",
+        "SCSS",
+        "Web3.js"
+      ]
+    },
+    {
       "Title": "Conciliación Riesgos BBVA",
       "Description": "Herramienta interna empleada por BBVA para detectar y estudiar discrepancias entre los importes operativos entre los sistemas de front y back office.",
       "imgs": [
@@ -167,19 +179,6 @@
         "Pandas",
         "Streamlit",
         "Anaconda"
-      ]
-    },
-    {
-      "Title": "InstantEat",
-      "Description": "Aplicación Android que permite a los usuarios pedir comida de varios restaurantes, pagar con varios métodos de pago y realizar un seguimiento de su pedido en tiempo real. Estaba enfocado a demostrar el uso de distintos patrones de diseño.",
-      "imgs": [
-        "assets/images/instant_eat.png"
-      ],
-      "ghLink": "https://github.com/MSchere/instantEat",
-      "Technologies": [
-        "Android Studio",
-        "Java",
-        "SQLite"
       ]
     }
   ],
@@ -221,6 +220,16 @@
       ]
     },
     {
+      "Title": "InstantEat",
+      "Description": "Aplicación Android que permite a los usuarios pedir comida de varios restaurantes, pagar con varios métodos de pago y realizar un seguimiento de su pedido en tiempo real. Estaba enfocado a demostrar el uso de distintos patrones de diseño.",
+      "ghLink": "https://github.com/MSchere/InstantEat",
+      "Technologies": [
+        "Android Studio",
+        "Java",
+        "SQLite"
+      ]
+    },
+    {
       "Title": "Vega SDK",
       "Description": "SDK con funcionalidad LPUART personalizada para Vegaboard de OpenISA. Se utilizó para desarrollar el puerto en FreeRTOS de la ICU del EPD de Solar Orbiter de mi trabajo de fin de carrera.",
       "ghLink": "https://github.com/MSchere/Vega_sdk",
@@ -229,17 +238,6 @@
         "RISC-V",
         "Eclipse",
         "Unix"
-      ]
-    },
-    {
-      "Title": "PID para coche autónomo",
-      "Description": "Proyecto universitario para la asignatura de Sistemas de Tiempo Real. Implementa un controlador PID escrito en ADA que hace que un automovil conduzca autónomamente en el simulador TORCS.",
-      "ghLink": "https://github.com/MSchere/SelfDrivingCar",
-      "Technologies": [
-        "C++",
-        "C",
-        "Ada",
-        "TORCS"
       ]
     },
     {

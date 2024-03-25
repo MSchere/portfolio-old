@@ -23,13 +23,6 @@
                 </div>
                 <div class="col-6 d-flex p-0 justify-content-end">
                   <a
-                    (click)="analyticsService.sendAnalyticEvent('click_pokemonlist_external_link', 'projects', 'click')"
-                    style="color: inherit"
-                    [href]="project['demoLink']"
-                    target="_blank"
-                    ><i id="demoLink" class="ml-3 fas fa-external-link-alt"></i
-                  ></a>
-                  <a
                     (click)="analyticsService.sendAnalyticEvent('click_pokemonlist_github', 'projects', 'click')"
                     style="color: inherit"
                     [href]="project['ghLink']"
